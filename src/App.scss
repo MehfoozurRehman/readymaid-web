@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+}
+.home__jumbotron {
+  width: 100%;
+  background: linear-gradient(135deg, #ffffff, #e6e6e6);
+}
+.home__jumbotron__content {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 700px;
+  margin: 0em auto;
+  padding: 0em 2em;
+  display: flex;
+}
+.home__jumbotron__content__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.home__jumbotron__content__left__heading {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 0.3em;
+}
+.home__jumbotron__content__left__info {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 1.5em;
+}
+.home__jumbotron__content__left__buttons {
+  display: flex;
+  align-items: center;
+}
+.home__jumbotron__content__left__buttons__primary {
+  margin-right: 1em;
+  color: white;
+  padding: 0.5em 1.5em;
+  background-color: #8a8a8a;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 14px;
+}
+.home__jumbotron__content__left__buttons__primary:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+}
+.home__jumbotron__content__left__buttons__secondary {
+  margin-right: 1em;
+  color: black;
+  padding: 0.5em 1.5em;
+  border: 1px solid #8a8a8a;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+.home__jumbotron__content__left__buttons__secondary:hover {
+  transition: 300ms ease-in-out;
+  background-color: #ffd857;
+  border-color: #ffd857;
+}
+.home__jumbotron__content__right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1;
+}
+.home__jumbotron__content__right__img {
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  .home__jumbotron__content__right {
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .home__jumbotron__content {
+    flex-direction: column;
+  }
+  .home__jumbotron__content__left {
+    min-height: 500px;
+    align-items: center;
+  }
+  .home__jumbotron__content__left * {
+    text-align: center;
+  }
+  .home__jumbotron__content__right {
+    justify-content: center;
+  }
+  .home__jumbotron__content__right__img {
+    max-width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .home__jumbotron__content__left__heading {
+    font-size: 25px;
+    line-height: 100%;
+  }
+  .home__jumbotron__content__left__buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  .home__jumbotron__content__left__buttons__primary {
+    margin-bottom: 1em;
+    min-width: 50%;
+  }
+  .home__jumbotron__content__left__buttons__secondary {
+    min-width: 50%;
+  }
+}
