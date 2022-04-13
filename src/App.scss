@@ -177,6 +177,136 @@ body {
 .home__jumbotron__content__right__img {
   width: 100%;
 }
+.home__services {
+  width: 100%;
+}
+.home__services__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  padding: 5em 0em;
+  margin: 0em auto;
+}
+.home__services__content__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+.home__services__content__header__button {
+  position: relative;
+}
+.home__services__content__header__button__input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.home__services__content__header__button__content {
+  border: 2px solid transparent;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+  padding: 1em 2em;
+}
+.home__services__content__header__button__content__text {
+  color: #7d7d7d;
+  line-height: 120%;
+}
+.home__services__content__header__button__content__text span {
+  font-weight: bold;
+}
+.home__services__content__header__button__content__icon {
+  margin-right: 1em;
+  color: #7d7d7d;
+}
+.home__services__content__header__button__input:hover
+  ~ .home__services__content__header__button__content {
+  transition: 300ms ease-in-out;
+  border: 2px solid #fffbef;
+  background-color: #fffbef;
+}
+.home__services__content__header__button__input:hover
+  ~ .home__services__content__header__button__content
+  .home__services__content__header__button__content__text {
+  transition: 300ms ease-in-out;
+  color: black;
+}
+
+.home__services__content__header__button__input:hover
+  ~ .home__services__content__header__button__content
+  .home__services__content__header__button__content__icon {
+  transition: 300ms ease-in-out;
+  color: #3cb149;
+}
+.home__services__content__header__button__input:checked
+  ~ .home__services__content__header__button__content {
+  transition: 300ms ease-in-out;
+  border: 2px solid #ffd857;
+  background-color: #fffbef;
+}
+.home__services__content__header__button__input:checked
+  ~ .home__services__content__header__button__content
+  .home__services__content__header__button__content__text {
+  transition: 300ms ease-in-out;
+  color: black;
+}
+
+.home__services__content__header__button__input:checked
+  ~ .home__services__content__header__button__content
+  .home__services__content__header__button__content__icon {
+  transition: 300ms ease-in-out;
+  color: #3cb149;
+}
+.home__services__content__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home__services__content__main__entry {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.home__services__content__main__entry__icon {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #3cb149;
+  border-radius: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  color: #3cb149;
+}
+.home__services__content__main__entry__icon svg {
+  width: 70px;
+  height: 70px;
+}
+.home__services__content__main__entry__text {
+  font-size: 16px;
+}
+.home__services__content__main__entry:hover {
+  transition: 300ms ease-in-out;
+}
+.home__services__content__main__entry:hover
+  .home__services__content__main__entry__icon {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
 @media (max-width: 1000px) {
   .home__jumbotron__content__right {
     align-items: center;
@@ -219,6 +349,11 @@ body {
   }
   .home__jumbotron__content__right__img {
     max-width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  .home__services__content__header {
+    flex-direction: column;
   }
 }
 @media (max-width: 400px) {
