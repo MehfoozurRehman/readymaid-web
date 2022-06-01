@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$color-gray: #f8f8f8;
+$color-primary: #3cb149;
 *,
 *::after,
 *::before {
@@ -372,4 +375,81 @@ body {
   .home__jumbotron__content__left__buttons__secondary {
     min-width: 50%;
   }
+}
+
+// ---------------------Products----------------------
+
+.products__jumbotron {
+  padding-top: 8em;
+  height: fit-content;
+  min-height: 700px;
+  width: 100%;
+  background-color: $color-gray;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.products__jumbotron__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  // border: 1px solid #3cb149;
+  width: 100%;
+}
+.products__jumbotron__content__box {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.products__jumbotron__title {
+  margin: 0;
+}
+.products__jumbotron__cards {
+  // border: 1px solid #3c48b1;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products__jumbotron__card {
+  background-color: white;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  color: black;
+  text-decoration: none;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+  justify-content: space-evenly;
+  transition: all 0.3s ease-in-out;
+}
+.products__jumbotron__card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: $color-primary;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.products__jumbotron__card:nth-child(2) {
+  margin: 0rem 2rem;
+}
+
+.products__jumbotron__card__icon img {
+  height: 70px;
+}
+.products__jumbotron__card__title {
+  font-size: 20px;
+}
+.products__jumbotron__card__title div {
+  font-weight: bold;
+}
+.active{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: $color-primary;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
