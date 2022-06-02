@@ -413,6 +413,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .products__jumbotron__card {
   background-color: white;
@@ -447,9 +448,182 @@ body {
 .products__jumbotron__card__title div {
   font-weight: bold;
 }
-.active{
+.active {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: $color-primary;
   color: white;
   transition: all 0.3s ease-in-out;
+}
+
+// ----------------RMB------------------------------------
+.RMB__container__main {
+  background-color: white;
+}
+.RMB__container__first {
+  height: fit-content;
+  width: 100%;
+  min-height: 800px;
+}
+.RMB__container__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 2rem;
+  width: 100%;
+  border: 2px solid #8c3cb1;
+}
+.RMB__title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+  padding: 2rem 0;
+}
+.RMB__title span {
+  font-weight: bold;
+  position: relative;
+}
+.RMB__title span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+  left: 0;
+  background-color: rgb(255, 216, 87);
+  height: 4px;
+  width: 100%;
+}
+.RMB__cards__container {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #3c80b1;
+  display: flex;
+  justify-content: space-between;
+}
+.RMB__cards__left {
+  width: 30%;
+  height: 100%;
+  padding: 1rem 0rem;
+  line-height: 200%;
+  margin-right: 2rem;
+
+}
+.RMB__cards__right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.RMB__cards__right__card {
+  height: 200px;
+  width: 350px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 2rem 2rem 0;
+}
+
+.RMB__cards__right__card__top {
+  display: flex;
+}
+.RMB__cards__right__card__top__left {
+}
+.RMB__cards__right__card__top__right {
+  font-size: 20px;
+  color: $color-primary;
+}
+.RMB__cotainer__second {
+  height: fit-content;
+  min-height: 800px;
+  width: 100%;
+}
+.RMB__container__second__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 2rem;
+  width: 100%;
+}
+.RMB__container__second__cards__container {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #d00909;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.RMB__container__second__card {
+  height: 550px;
+  width: 300px;
+  background-color: $color-gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 2rem;
+}
+.RMB__container__second__card:nth-child(2){
+  margin: 0 2rem;
+  background-color: rgb(255, 216, 87);
+  color:black;
+}
+.RMB__container__second__card:nth-child(2) .RMB__container__second__card__price{
+  color:black;
+}
+.RMB__container__second__card:nth-child(3){
+  margin: 0 2rem;
+  background-color: $color-primary;
+  color:white;
+}
+.RMB__container__second__card:nth-child(3) .RMB__container__second__card__price{
+  color:white;
+}
+.RMB__container__second__card:nth-child(3) .RMB__container__second__card__anchor{
+  color:white;
+}
+.RMB__container__second__card:nth-child(3).RMB__container__second__card__anchor::after {
+  color:white;
+}
+
+
+.RMB__container__second__card__title {
+  font-size: 30px;
+  position: relative;
+}
+.RMB__container__second__card__title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+  left: 0;
+  background-color: gray;
+  height: 1px;
+  width: 50%;
+}
+.RMB__container__second__card__price {
+  font-size: 30px;
+  color: $color-primary;
+}
+.RMB__container__second__card__link {
+  display: flex;
+}
+.RMB__container__second__card__anchor {
+  margin-right: 1rem;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+.RMB__container__second__card__anchor::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  border-radius: 2px;
+  left: 0;
+  background-color: gray;
+  height: 2px;
+  width: 100%;
 }

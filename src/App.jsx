@@ -5,7 +5,7 @@ import Home from "./screens/Home";
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import Products from "./screens/Products";
-
+import RMBusiness from './screens/RMBusiness'
 export default function App() {
   return (
     <>
@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/products/become_a_resource" element={<Home />} />
           <Route
             path="/products/readymaind_for_businesses"
-            element={<Home />}
+            element={<RMBusiness />}
           />
         </Route>
       </Routes>
