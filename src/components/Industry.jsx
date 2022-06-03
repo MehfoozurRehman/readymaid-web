@@ -5,7 +5,7 @@ import imdustryimg3 from "../assets/img/industryimg3.png";
 
 export default function Industry() {
   return (
-    <>
+    <div className="industry__overview">
       <div className="industry__overview__section">
         <div className="industry__overview__section__container__header">
           <div className="industry__overview__section__header">
@@ -45,6 +45,6 @@ export default function Industry() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

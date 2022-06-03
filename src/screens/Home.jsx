@@ -7,9 +7,9 @@ import Carouselslide from "../components/Carousel";
 import HomeServiceButton from "../components/HomeServiceButton";
 import About__Section from "../components/About__Section";
 import Industry from "../components/Industry";
+import Qualityservices from "../components/Qualityservices";
 
 <HomeServiceButton />;
-
 export default function Home() {
   return (
     <>
@@ -88,6 +88,7 @@ export default function Home() {
       <About__Section />
       <Simplified />
       <Industry />
+      <Qualityservices />;
     </>
   );
 }
