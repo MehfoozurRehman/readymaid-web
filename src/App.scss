@@ -409,7 +409,7 @@ body {
 }
 .products__jumbotron__cards {
   // border: 1px solid #3c48b1;
-  height: 400px;
+  // height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -470,7 +470,7 @@ body {
   height: 100%;
   padding: 0 2rem;
   width: 100%;
-  border: 2px solid #8c3cb1;
+  // border: 2px solid #8c3cb1;
 }
 .RMB__title {
   text-align: center;
@@ -495,7 +495,7 @@ body {
 .RMB__cards__container {
   height: 100%;
   width: 100%;
-  border: 2px solid #3c80b1;
+  // border: 2px solid #3c80b1;
   display: flex;
   justify-content: space-between;
 }
@@ -505,7 +505,6 @@ body {
   padding: 1rem 0rem;
   line-height: 200%;
   margin-right: 2rem;
-
 }
 .RMB__cards__right {
   width: 60%;
@@ -549,7 +548,7 @@ body {
 .RMB__container__second__cards__container {
   height: 100%;
   width: 100%;
-  border: 2px solid #d00909;
+  // border: 2px solid #d00909;
   padding: 4rem;
   display: flex;
   justify-content: center;
@@ -566,29 +565,30 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 2rem;
 }
-.RMB__container__second__card:nth-child(2){
+.RMB__container__second__card:nth-child(2) {
   margin: 0 2rem;
   background-color: rgb(255, 216, 87);
-  color:black;
+  color: black;
 }
-.RMB__container__second__card:nth-child(2) .RMB__container__second__card__price{
-  color:black;
+.RMB__container__second__card:nth-child(2)
+  .RMB__container__second__card__price {
+  color: black;
 }
-.RMB__container__second__card:nth-child(3){
-  margin: 0 2rem;
+.RMB__container__second__card:nth-child(3) {
   background-color: $color-primary;
-  color:white;
+  color: white;
 }
-.RMB__container__second__card:nth-child(3) .RMB__container__second__card__price{
-  color:white;
+.RMB__container__second__card:nth-child(3)
+  .RMB__container__second__card__price {
+  color: white;
 }
-.RMB__container__second__card:nth-child(3) .RMB__container__second__card__anchor{
-  color:white;
+.RMB__container__second__card:nth-child(3)
+  .RMB__container__second__card__anchor {
+  color: white;
 }
 .RMB__container__second__card:nth-child(3).RMB__container__second__card__anchor::after {
-  color:white;
+  color: white;
 }
-
 
 .RMB__container__second__card__title {
   font-size: 30px;
@@ -617,7 +617,7 @@ body {
   text-decoration: none;
   color: black;
 }
-.RMB__container__second__card__anchor::after {
+.RMB__container__second__card__anchor::after{
   content: "";
   position: absolute;
   bottom: 0;
@@ -626,4 +626,43 @@ body {
   background-color: gray;
   height: 2px;
   width: 100%;
+}
+@media (max-width: 1175px) {
+  .RMB__container__second__card:nth-child(3) {
+    margin: 2rem 0rem;
+  }
+}
+@media (max-width: 1000px) {
+  .products__jumbotron__cards {
+    padding: 2rem 0rem;
+  }
+  .products__jumbotron__card:nth-child(2) {
+    margin: 2rem;
+  }
+  .RMB__cards__container {
+    flex-direction: column;
+  }
+  .RMB__cards__left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .RMB__cards__right {
+    width: 100%;
+    justify-content: center;
+  }
+  .RMB__container__second__card:nth-child(2) {
+    margin:0rem 2rem;
+  }
+  
+}
+@media (max-width: 875px) {
+  .RMB__container__second__card:nth-child(1) {
+    margin-bottom: 2rem;
+  }
+  .RMB__container__second__card:nth-child(2) {
+    margin: 0rem;
+}
+.RMB__container__second__card:nth-child(3) {
+  margin: 2rem 0rem 0rem 0rem;
+}
 }
