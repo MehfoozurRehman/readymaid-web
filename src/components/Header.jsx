@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header__background__img">
-        <img className="background__img" src={back__img} alt="" width={100} />
+        <img className="background__img" src={back__img} alt="" />
       </div>
       <div className="header__wrapper">
         <Link
