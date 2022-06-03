@@ -17,6 +17,7 @@ export default function App() {
      <h3 className="Head_title">Let's talk to us for Booking</h3>
 
 
+
      <div className="main_container">
        <div className="main_container_left">
          <p className="left_container_title">Get in touch</p>
@@ -76,13 +77,14 @@ export default function App() {
          </div>
        </div>
        
-
-       
+ 
 
 
      </div>
+     
     </>
-
    
+    
   );
+  
 }
