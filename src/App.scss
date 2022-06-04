@@ -721,7 +721,146 @@ body {
   font-size: 12px;
   padding: 0.5em;
 }
+// Benefit Page
+.benefit__section {
+  width: 100%;
+  position: relative;
+}
+.benefit__section__img {
+  width: 100%;
+  max-height: 650px;
+}
 
+.benefit__secton__container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefit__secton__banner__data {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.benefit__secton__banner__data__heading {
+  font-size: 40px;
+  font-weight: 400;
+}
+.benefit__section__banner__data__heading__text {
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+// benefit cards struc
+.benefit__section__two__cards {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2em;
+}
+.benefit__card {
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10em;
+  margin: -5em 2em;
+  width: calc(100% - 4em);
+  height: 100%;
+  z-index: 10;
+  position: relative;
+  background-color: #ffff;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.benefit__card__structure {
+  width: 30%;
+  height: 280px;
+  margin: 1em;
+  padding: 1em 1em;
+  border-radius: 20px;
+  background-color: #ffff;
+}
+.benefit__card__structure:hover {
+  background-color: #3cb149;
+  transition: all 0.3s ease-in-out;
+}
+
+.benefit__card__img {
+  width: 40px;
+  height: 40px;
+  background-color: #fff7dc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+.benefit__card__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 1em;
+}
+.benefit__card__text {
+  font-size: 14px;
+  color: #686868;
+}
+// resources section
+.resources__section {
+  margin-top: 7em;
+  width: 100%;
+  margin-top: 7em;
+  background-size: cover;
+  position: relative;
+}
+.resources__section__img {
+  width: 100%;
+  height: 500px;
+}
+.resources__secton__banner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+.resources__secton__banner__content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.resources__secton__content__heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: #efefef;
+  position: relative;
+}
+.resources__secton__content__heading::after {
+  content: " ";
+  background-color: #fcca25;
+  width: 50%;
+  height: 3px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+.resources__secton__content__text {
+  color: #efefef;
+  font-size: 15px;
+  text-align: center;
+}
 @media (max-width: 1000px) {
   .home__jumbotron__content__right {
     align-items: center;
