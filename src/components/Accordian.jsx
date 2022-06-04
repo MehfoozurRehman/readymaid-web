@@ -41,18 +41,20 @@ export default function Accordian() {
           All you need to know!
         </div>
       </div>
-      {Faqarray.map((item, index) => {
-        console.log(item);
-        return (
-          <Faqs
-            questions={item.questions}
-            selected={selected}
-            setSelected={setSelected}
-            index={index}
-            answer={item.answer}
-          />
-        );
-      })}
+      <div className="accordian__section__array">
+        {Faqarray.map((item, index) => {
+          console.log(item);
+          return (
+            <Faqs
+              questions={item.questions}
+              selected={selected}
+              setSelected={setSelected}
+              index={index}
+              answer={item.answer}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

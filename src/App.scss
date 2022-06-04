@@ -34,7 +34,7 @@ body {
 }
 .header__background__img img {
   width: 100%;
-  height: 550px;
+  height: 650px;
 }
 .background__img {
   width: 100%;
@@ -95,6 +95,18 @@ body {
   transition: 300ms ease-in-out;
   border: 1px solid rgb(112, 112, 112, 0.1);
   color: #fff;
+}
+
+// home section
+
+.home__services__content__main__entry__enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.home__services__content__main__entry {
+  margin: 1em;
 }
 
 .home__jumbotron {
@@ -163,7 +175,7 @@ body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 4em;
+  margin: 2em 0em;
 }
 .Solution__heading {
   width: 100%;
@@ -263,10 +275,11 @@ body {
 .Carousel__div {
   width: 100%;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
 }
 .carousel {
   z-index: 4;
+  margin: 2em 0em;
 }
 .home__services__content__main {
   display: flex;
@@ -287,8 +300,8 @@ body {
   color: black;
 }
 .home__services__content__main__entry__icon {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 20px;
   border: 1px solid #fff;
   border-radius: 150px;
@@ -324,12 +337,7 @@ body {
 .home__services__content__main {
   display: flex;
 }
-.home__services__content__main__entry__enter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 // About Section
 .About__sec {
   width: 100%;
@@ -339,7 +347,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0em 2em;
-  margin-top: 4em;
+  margin: 2em 0em;
 }
 .About__section__container__heading {
   width: 100%;
@@ -351,6 +359,16 @@ body {
 .About__section__container__heading__main {
   font-size: 30px;
   font-weight: 600;
+  position: relative;
+}
+.About__section__container__heading__main::after {
+  content: " ";
+  width: 55%;
+  background-color: #3cb149;
+  height: 3px;
+  bottom: -2px;
+  left: 138px;
+  position: absolute;
 }
 .About__section__container__heading__second {
   font-size: 14px;
@@ -451,7 +469,6 @@ body {
 }
 .Simplified__payment__container {
   display: flex;
-
   margin-top: -12em;
   flex-direction: column;
   justify-content: center;
@@ -472,8 +489,8 @@ body {
   display: flex;
   position: relative;
   width: 100%;
-  height: 300px;
-  margin-top: 2em;
+  height: 500px;
+  margin: 2em 0em;
 }
 .payment__overview__section__img {
   width: 100%;
@@ -500,8 +517,8 @@ body {
 
 .payment__overview__section__overlay__heading::after {
   content: "";
-  right: -30px;
-  width: 60%;
+  right: 0px;
+  width: 45%;
   position: absolute;
   top: 30px;
   height: 3px;
@@ -510,6 +527,13 @@ body {
 .payment__overview__section__info {
   font-size: 14px;
   color: white;
+}
+.payment__overview__section__info a {
+  color: #efefef;
+  transition: 0.3s ease-in-out;
+}
+.payment__overview__section__info a:hover {
+  color: #3cb149;
 }
 .industry__overview {
   width: 100%;
@@ -520,8 +544,9 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
-  margin-top: 2em;
+  margin: 2em 0em;
   flex-direction: column;
+  padding: 0em 1em;
   justify-content: center;
 }
 .industry__overview__section__header {
@@ -551,7 +576,7 @@ body {
 }
 .industry__overview__section__entry {
   width: 100%;
-  margin-top: 4em;
+  margin: 2em 0em;
   height: 100%;
 }
 .industry__overview__section__entry__container {
@@ -589,7 +614,7 @@ body {
   display: flex;
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 600px;
   margin-top: 2em;
 }
 .quality__services__section__banner__img {
@@ -645,7 +670,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 1em 0em;
@@ -654,7 +679,8 @@ body {
 }
 .accordian__section__container__heading {
   position: absolute;
-  right: 0px;
+  right: 200px;
+  top: 65px;
 }
 .accordian__section__heading {
   font-size: 17px;
@@ -664,11 +690,11 @@ body {
 .accordian__section__heading::after {
   content: "";
   background-color: #fcca25;
-  width: 70%;
+  width: 50%;
   height: 3px;
   position: absolute;
-  right: 43px;
-  bottom: 30px;
+  right: 72px;
+  bottom: 35px;
 }
 
 .accordian__section__entry {
@@ -687,6 +713,7 @@ body {
   width: 100%;
   justify-content: space-between;
   border: 1px solid #efefef;
+  cursor: pointer;
 }
 .accordian__section__entry__answer {
   display: flex;
@@ -696,10 +723,6 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .accordian__section__container__heading {
-    position: relative;
-  }
-
   .home__jumbotron__content__right {
     align-items: center;
   }
@@ -811,6 +834,13 @@ body {
     width: 100%;
     padding: 1em 0em;
   }
+  .payment__overview__section__img {
+    width: 200%;
+    margin-left: -50%;
+  }
+  .payment__overview__section {
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 600px) {
   .home__services__content__header {
@@ -830,6 +860,29 @@ body {
     margin-left: -50%;
   }
   .payment__overview__section {
+    overflow-x: hidden;
+  }
+  .header__background__img img {
+    width: 130%;
+    margin-left: -25%;
+  }
+  .header__background__img {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 550) {
+  .payment__overview__section__img {
+    width: 200%;
+    margin-left: -50%;
+  }
+  .payment__overview__section {
+    overflow-x: hidden;
+  }
+  .header__background__img img {
+    width: 200%;
+    margin-left: -50%;
+  }
+  .header__background__img {
     overflow-x: hidden;
   }
 }
@@ -871,8 +924,6 @@ body {
   .industry__overview__section__entry {
     padding: 0em 1em;
   }
-}
-@media (max-width: 400px) {
   .quality__services__section__banner__img__overlay__header__middle__detail {
     max-width: 100%;
     text-align: center;
@@ -880,5 +931,12 @@ body {
   .quality__services__section__banner__img__overlay__header__middle {
     margin-bottom: 0;
     line-height: 20px;
+  }
+  .header__background__img img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .header__background__img {
+    overflow-x: hidden;
   }
 }

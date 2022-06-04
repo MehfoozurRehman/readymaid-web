@@ -12,7 +12,7 @@ export default function About__Section() {
               We care about you
             </span>
             <p className="About__section__container__heading__second">
-              We are here to make your life easy
+              We are here to make your life easy{" "}
               <a
                 className="About__section__container__heading__second__learn__more"
                 href="#"

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import OutsideClickHandler from "react-outside-click-handler";
-
 import back__img from "../assets/img/background.png";
 
 export default function Header() {

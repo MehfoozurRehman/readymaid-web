@@ -13,7 +13,7 @@ export default function Simplified() {
           Simplified Payments
         </div>
         <div className="payment__overview__section__info">
-          Easy & online payments for your resources. Learn More
+          Easy & online payments for your resources. <a href="#">Learn More</a>
         </div>
       </div>
     </div>
