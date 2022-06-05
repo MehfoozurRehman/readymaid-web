@@ -686,13 +686,78 @@ body {
   object-fit: cover;
 }
 .BAR__content__overlay {
-  height: 550px;
+  min-height: 550px;
   width: 60%;
   border-radius: 10px;
-  background-color: white;
-  opacity: .7;
+  background-color: rgba(255, 255, 255, 0.701);
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.BAR__content {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  opacity: 1;
+}
+.BAR__content__title {
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.BAR__content__title::after {
+  content: "";
+  position: absolute;
+  bottom: 44px;
+  left: 171px;
+  background-color: rgb(255, 216, 87);
+  width: 108px;
+  height: 3px;
+}
+.BAR__content__title div {
+  font-weight: 500;
+}
+.BAR__content__form__input__Comp__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.BAR__content__form__input__container {
+  display: flex;
+  flex: 0 1 320px;
+margin-right: 2rem;
+  // border: 1px solid #d00909;
+  background-color: white;
+  width: 48%;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 0.5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.BAR__content__form__input__icon img {
+  height: 100%;
+}
+.BAR__content__form__input__icon {
+  width: 20px;
+  height: 20px;
+}
+.BAR__content__form__input__box{
+  width: 250px;
+  height: 30px;
+}
+.BAR__content__form__input__box input {
+  width: 90%;
+  height: 100%;
+  margin-left: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.BAR__content__form__input__box input:focus-visible {
+  border-bottom: 1px solid gray;
+  transition: all 0.3s ease-in-out;
 }
