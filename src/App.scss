@@ -751,6 +751,8 @@ body {
 .benefit__secton__banner__data__heading {
   font-size: 40px;
   font-weight: 400;
+  width: 100%;
+  text-align: center;
 }
 .benefit__section__banner__data__heading__text {
   max-width: 80%;
@@ -780,6 +782,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
+  padding: 1em 0em;
   flex-wrap: wrap;
   background-color: #ffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -787,9 +790,9 @@ body {
 }
 
 .benefit__card__structure {
-  width: 30%;
+  width: 400px;
+  margin: 0 auto;
   height: 280px;
-  margin: 1em;
   padding: 1em 1em;
   border-radius: 20px;
   background-color: #ffff;
@@ -825,6 +828,12 @@ body {
   font-size: 14px;
   color: #686868;
 }
+//@at-root
+
+.swiper-slide {
+  width: 50%;
+}
+
 // resources section
 .resources__section {
   margin-top: 7em;
@@ -885,8 +894,8 @@ body {
   width: 100%;
 }
 .resources__card__1 {
-  width: 80%;
-  height: 200px;
+  width: 90%;
+  height: 230px;
   margin-top: 2em;
   background-color: #efefef;
   padding: 1em;
@@ -914,6 +923,169 @@ body {
 .resources__card__1__text {
   width: 100%;
 }
+
+// safety__customer__section
+
+.safety__customer__section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.safety__customer__section__background {
+  width: 100%;
+  min-height: 800px;
+}
+.safety__customer__section__container {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.safety__customer__section__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+.safety__customer__section__container__heading {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1em;
+}
+.safety__customer__section__container__heading::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #fcca25;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.Safety__Cards__section {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.Safety__Cards__section__container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 0.5em;
+}
+.Safety__Card__section__img {
+  text-align: center;
+}
+.Safety__Card__section__img svg {
+  background-color: #fff;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 40px;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 20;
+}
+.Safety__Card__content {
+  width: 100%;
+  height: 150px;
+  background-color: #d6d1d1;
+  padding: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Safety__Card__content:hover {
+  background-color: #3cb149;
+}
+.Safety__Card__section__heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.Safety__Card__section__text {
+  text-align: center;
+}
+
+//smart__solution__section
+.smart__solution__section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.smart__wrapper {
+  width: 100%;
+  height: 100%;
+}
+.smart__wrapper__img {
+  width: 100%;
+  height: 600px;
+}
+.smart__solution__container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.smart__solution__container__heading {
+  color: #efefef;
+  font-size: 30px;
+  font-weight: 600;
+}
+.smart__solution__container__text {
+  color: #efefef;
+  font-size: 15px;
+}
+//readymaid__app__form__section
+
+.readymaid__app__form__section {
+  width: 100%;
+  height: 100%;
+}
+.readymaid__app__form__container {
+  max-width: 1440px;
+  margin: 4em auto;
+  padding: 0em 4em;
+  display: flex;
+}
+.readymaid__app__form__container__left {
+  width: 50%;
+}
+.readymaid__app__form__container__right {
+  width: 50%;
+}
+//form
+.readymaid__app__form__right {
+  background-color: #efefef;
+  padding: 2em 3em;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: -16em;
+  position: relative;
+  width: 80%;
+  z-index: 30;
+}
+.readymaid__app__form__right__heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3cb149;
+}
+.readymaid__app__form__right__text {
+  color: #000000;
+}
+.readymaid__app__form__right__text__start {
+  color: #3cb149;
+}
+
 @media (max-width: 1000px) {
   .home__jumbotron__content__right {
     align-items: center;
@@ -943,6 +1115,11 @@ body {
   }
   .industry__overview__section__entry__container__cards {
     width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .benefit__section__img {
+    min-height: 400px;
   }
 }
 @media (max-width: 870px) {
@@ -1081,6 +1258,17 @@ body {
 @media (max-width: 400px) {
   .Solution__heading__main__head {
     text-align: center;
+  }
+  .benefit__secton__banner__data__heading {
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 0.5em;
+  }
+  .benefit__section__banner__data__heading__text {
+    width: 100%;
   }
   .home__jumbotron__content__left__heading {
     font-size: 25px;

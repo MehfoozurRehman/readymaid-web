@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import React, { useEffect, useState } from "react";
 import "swiper/css";
 import resources from "../assets/img/Resources.png";
+import { getText } from "../utils/getText";
 
 export default function Resources__sec() {
   const [slidesPerPage, setSlidesPerPage] = useState(1);
@@ -35,6 +36,8 @@ export default function Resources__sec() {
       }
     });
   }, []);
+  let string =
+    "We treat our employees with utmost respect. They enjoy all the perks of working with a corporate sector.";
   return (
     <div className="resources__section">
       <img src={resources} className="resources__section__img" alt="" />
@@ -281,11 +284,14 @@ export default function Resources__sec() {
               <div className="resources__card__1__title">
                 Learning & Development
               </div>
-              <div className="resources__card__1__text">
-                We provide extensive learning & development opportunities to our
-                resources. We hire the resource and make him market fit. Market
-                dynamics changes rapidly, and a right resource should be aware
-                of the latest market trends. We ensure the same.
+              <div>
+                {getText(
+                  "We provide extensive learning & development opportunities to our resources. We hire the resource and make him market fit. Market dynamics changes rapidly, and a right resource should be aware of the latest market trends. We ensure the same.",
+                  100
+                )}
+                {new Date().getFullYear()}
+                {new Date().getMonth()}
+                {new Date().getDay()}
               </div>
             </div>
           </SwiperSlide>
@@ -327,8 +333,7 @@ export default function Resources__sec() {
               </div>
               <div className="resources__card__1__title">Work Rights </div>
               <div className="resources__card__1__text">
-                We treat our employees with utmost respect. They enjoy all the
-                perks of working with a corporate sector.
+                {getText(string, 100)}
               </div>
             </div>
           </SwiperSlide>
