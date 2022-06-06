@@ -679,13 +679,12 @@ body {
 }
 .accordian__section__container__heading {
   position: absolute;
-  right: 200px;
-  top: 65px;
+  top: 0px;
 }
 .accordian__section__heading {
   font-size: 17px;
   font-weight: 600;
-  margin-bottom: 1em;
+  position: relative;
 }
 .accordian__section__heading::after {
   content: "";
@@ -693,8 +692,8 @@ body {
   width: 50%;
   height: 3px;
   position: absolute;
-  right: 72px;
-  bottom: 35px;
+  left: 0px;
+  bottom: 0px;
 }
 
 .accordian__section__entry {
@@ -1088,6 +1087,9 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .accordian__section__heading {
+    position: relative;
+  }
   .home__jumbotron__content__right {
     align-items: center;
   }
@@ -1255,6 +1257,9 @@ body {
   }
   .safety__customer__section__background {
     height: 100%;
+  }
+  .accordian__section__array {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
