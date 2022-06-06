@@ -7,10 +7,12 @@ import Industry from "../components/Industry";
 import Qualityservices from "../components/Qualityservices";
 import Accordian from "../components/Accordian";
 import HomeSection from "../components/HomeSection";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <HomeSection />
       <Carouselslide />
       <Solution />

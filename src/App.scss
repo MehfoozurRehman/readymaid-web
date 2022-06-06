@@ -367,7 +367,7 @@ body {
   background-color: #3cb149;
   height: 3px;
   bottom: -2px;
-  left: 138px;
+  right: 0px;
   position: absolute;
 }
 .About__section__container__heading__second {
@@ -838,7 +838,6 @@ body {
 .resources__section {
   margin-top: 7em;
   width: 100%;
-  margin-top: 7em;
   background-size: cover;
   position: relative;
 }
@@ -933,16 +932,17 @@ body {
 }
 .safety__customer__section__background {
   width: 100%;
-  min-height: 800px;
+  height: 100%;
+  position: absolute;
 }
 .safety__customer__section__container {
   width: 100%;
   min-height: 100%;
-  position: absolute;
-  top: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  padding: 2em 0em;
 }
 .safety__customer__section__content {
   max-width: 1440px;
@@ -970,6 +970,7 @@ body {
   height: 100%;
   flex-wrap: wrap;
   position: relative;
+
   display: flex;
   justify-content: center;
 }
@@ -977,8 +978,7 @@ body {
   padding: 1em;
   display: flex;
   flex-direction: column;
-  width: 45%;
-  margin: 0.5em;
+  width: 400px;
 }
 .Safety__Card__section__img {
   text-align: center;
@@ -1025,7 +1025,7 @@ body {
 }
 .smart__wrapper__img {
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 .smart__solution__container {
   width: 100%;
@@ -1045,6 +1045,7 @@ body {
 .smart__solution__container__text {
   color: #efefef;
   font-size: 15px;
+  text-align: center;
 }
 //readymaid__app__form__section
 
@@ -1071,7 +1072,7 @@ body {
   border-radius: 20px 20px 0px 0px;
   margin-top: -16em;
   position: relative;
-  width: 80%;
+  max-width: 550px;
   z-index: 30;
 }
 .readymaid__app__form__right__heading {
@@ -1116,10 +1117,38 @@ body {
   .industry__overview__section__entry__container__cards {
     width: 50%;
   }
+  .readymaid__app__form__right {
+    width: 100%;
+  }
+  .smart__wrapper__img {
+    width: 170%;
+    margin-left: -30%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
 }
 @media (max-width: 900px) {
   .benefit__section__img {
     min-height: 400px;
+  }
+  .readymaid__app__form__container {
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+  }
+  .readymaid__app__form__container__left {
+    width: 100%;
+  }
+  .readymaid__app__form__right {
+    max-width: 100%;
+  }
+  .readymaid__app__form__container__right {
+    width: 100%;
+    padding: 0em;
+  }
+  .readymaid__app__form__right {
+    margin-top: 1em;
   }
 }
 @media (max-width: 870px) {
@@ -1131,7 +1160,14 @@ body {
     width: 62%;
   }
 }
-
+@media (max-width: 880px) {
+  .benefit__card__interior {
+    padding: 1em 1em;
+  }
+  .benefit__card__structure {
+    width: 100%;
+  }
+}
 @media (max-width: 800px) {
   .header__mobile__btn {
     display: flex;
@@ -1210,6 +1246,16 @@ body {
   .payment__overview__section {
     overflow-x: hidden;
   }
+  .smart__wrapper__img {
+    width: 180%;
+    margin-left: -30%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .safety__customer__section__background {
+    height: 100%;
+  }
 }
 @media (max-width: 600px) {
   .home__services__content__header {
@@ -1238,6 +1284,22 @@ body {
   .header__background__img {
     overflow-x: hidden;
   }
+  .readymaid__app__form__right {
+    padding: 1em;
+  }
+  .readymaid__app__form__container {
+    padding: 1em;
+  }
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .safety__customer__section__background {
+    height: 100%;
+  }
 }
 @media (max-width: 550) {
   .payment__overview__section__img {
@@ -1253,6 +1315,45 @@ body {
   }
   .header__background__img {
     overflow-x: hidden;
+  }
+  .readymaid__app__form__container {
+    padding: 0;
+  }
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -30%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 470px) {
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .benefit__secton__banner__data {
+    margin-top: 3em;
+  }
+  .smart__solution__container__heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .benefit__card {
+    margin: 0em 0em;
+    width: 100%;
+  }
+  .benefit__card__structure {
+    height: 100%;
+  }
+  .benefit__card__interior {
+    margin: 0 auto;
+  }
+  .resources__section {
+    margin-top: 1em;
   }
 }
 @media (max-width: 400px) {
@@ -1318,5 +1419,24 @@ body {
   }
   .header__background__img {
     overflow-x: hidden;
+  }
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .Safety__Cards__section__container {
+    width: 100%;
+  }
+  .resources__secton__content__heading {
+    font-size: 28px;
+  }
+  .resources__secton__content__text {
+    font-size: 12px;
+  }
+  .payment__overview__section__info {
+    text-align: center;
   }
 }
