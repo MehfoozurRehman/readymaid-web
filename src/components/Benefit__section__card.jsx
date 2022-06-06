@@ -388,15 +388,17 @@ export default function Benefit__section__card() {
   ];
   return (
     <div className="benefit__card">
-      {Benefit__Array.map((item) => {
-        return (
-          <Benefit__card__struc
-            image={item.image}
-            title={item.title}
-            text={item.text}
-          />
-        );
-      })}
+      <div className="benefit__card__interior">
+        {Benefit__Array.map((item) => {
+          return (
+            <Benefit__card__struc
+              image={item.image}
+              title={item.title}
+              text={item.text}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
