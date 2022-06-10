@@ -51,9 +51,15 @@ function BecomeAresource() {
                   type="password"
                 />
               </div>
-
               <div className="BAR__content__form__file__container">
                 <input type="file" className="BAR__content__form__file" />
+              </div>
+              <div className="BAR__content__form__anchor">
+                <input type="checkbox" id="terms" />
+                <label htmlFor="terms">
+                  I agree to <a href="#">Terms and conditions</a> &{" "}
+                  <a href="#">privacy </a>
+                </label>
               </div>
             </form>
           </div>
