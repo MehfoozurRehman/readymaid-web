@@ -368,7 +368,7 @@ body {
   background-color: #3cb149;
   height: 3px;
   bottom: -2px;
-  left: 138px;
+  right: 0px;
   position: absolute;
 }
 .About__section__container__heading__second {
@@ -667,7 +667,6 @@ body {
   position: relative;
 }
 .accordian__section {
-  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
@@ -680,13 +679,13 @@ body {
 }
 .accordian__section__container__heading {
   position: absolute;
-  right: 200px;
-  top: 65px;
+  top: 0;
 }
 .accordian__section__heading {
   font-size: 17px;
   font-weight: 600;
-  margin-bottom: 1em;
+  position: relative;
+  right: 0;
 }
 .accordian__section__heading::after {
   content: "";
@@ -694,8 +693,8 @@ body {
   width: 50%;
   height: 3px;
   position: absolute;
-  right: 72px;
-  bottom: 35px;
+  left: 0px;
+  bottom: 0px;
 }
 
 .accordian__section__entry {
@@ -722,8 +721,539 @@ body {
   font-size: 12px;
   padding: 0.5em;
 }
+// Benefit Page
+.benefit__section {
+  width: 100%;
+  position: relative;
+}
+.benefit__section__img {
+  width: 100%;
+  max-height: 650px;
+}
 
+.benefit__secton__container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefit__secton__banner__data {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.benefit__secton__banner__data__heading {
+  font-size: 40px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
+.benefit__section__banner__data__heading__text {
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+// benefit cards struc
+.benefit__section__two__cards {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2em;
+}
+.benefit__card {
+  margin-top: -10em;
+  margin: -5em 2em;
+  width: calc(100% - 4em);
+  height: 100%;
+  z-index: 10;
+  position: relative;
+}
+.benefit__card__interior {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  padding: 1em 0em;
+  flex-wrap: wrap;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+}
+
+.benefit__card__structure {
+  width: 400px;
+  margin: 0 auto;
+  height: 280px;
+  padding: 1em 1em;
+  border-radius: 20px;
+  background-color: #ffff;
+}
+.benefit__card__structure:hover {
+  background-color: #3cb149;
+  transition: all 0.3s ease-in-out;
+}
+
+.benefit__card__img {
+  width: 40px;
+  height: 40px;
+  background-color: #fff7dc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 1em;
+}
+.benefit__card__img:hover {
+  color: #efefef;
+  fill: #fff;
+  background-color: #000000;
+}
+.benefit__card__title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 1em;
+}
+.benefit__card__text {
+  font-size: 14px;
+  color: #686868;
+}
+//@at-root
+
+.swiper-slide {
+  width: 50%;
+}
+
+// resources section
+.resources__section {
+  margin-top: 7em;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.resources__section__img {
+  width: 100%;
+  height: 650px;
+}
+.resources__secton__banner {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  top: 0px;
+}
+.resources__secton__banner__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.resources__secton__content__heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: #efefef;
+  position: relative;
+}
+.resources__secton__content__heading::after {
+  content: " ";
+  background-color: #fcca25;
+  width: 50%;
+  height: 3px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+.resources__secton__content__text {
+  color: #efefef;
+  font-size: 15px;
+  text-align: center;
+}
+.resources__swiper {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  max-width: 1440px;
+  padding: 0em 1em;
+  bottom: 0;
+}
+.swiper__slide__resources {
+  width: 100%;
+}
+.resources__card__1 {
+  width: 90%;
+  height: 230px;
+  margin-top: 2em;
+  background-color: #efefef;
+  padding: 1em;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.resources__card__1:hover {
+  background-color: #3cb149;
+  color: #efefef;
+}
+.resources__card__1__image {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 1em;
+  background-color: #fff;
+}
+.resources__card__1__title {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.resources__card__1__text {
+  width: 100%;
+}
+
+// safety__customer__section
+
+.safety__customer__section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.safety__customer__section__background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.safety__customer__section__container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 2em 0em;
+}
+.safety__customer__section__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+.safety__customer__section__container__heading {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1em;
+}
+.safety__customer__section__container__heading::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #fcca25;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.Safety__Cards__section {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+  flex-wrap: wrap;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+.Safety__Cards__section__container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.Safety__Card__section__img {
+  text-align: center;
+}
+.Safety__Card__section__img svg {
+  background-color: #fff;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 40px;
+  margin-bottom: -20px;
+  position: relative;
+  z-index: 20;
+}
+.Safety__Card__content {
+  width: 100%;
+  height: 150px;
+  background-color: #d6d1d1;
+  padding: 1em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.Safety__Card__content:hover {
+  background-color: #3cb149;
+}
+.Safety__Card__section__heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.Safety__Card__section__text {
+  text-align: center;
+}
+
+//smart__solution__section
+.smart__solution__section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.smart__wrapper {
+  width: 100%;
+  height: 100%;
+}
+.smart__wrapper__img {
+  width: 100%;
+  height: 500px;
+}
+.smart__solution__container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.smart__solution__container__heading {
+  color: #efefef;
+  font-size: 30px;
+  font-weight: 600;
+}
+.smart__solution__container__text {
+  color: #efefef;
+  font-size: 15px;
+  text-align: center;
+}
+//readymaid__app__form__section
+
+.readymaid__app__form__section {
+  width: 100%;
+  height: 100%;
+}
+.readymaid__app__form__container {
+  max-width: 1440px;
+  margin: 4em auto;
+  padding: 0em 4em;
+  display: flex;
+}
+.readymaid__app__form__container__left {
+  width: 50%;
+}
+.readymaid__app__form__container__right {
+  width: 50%;
+}
+//form
+.readymaid__app__form__right {
+  background-color: #efefef;
+  padding: 2em 3em;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: -16em;
+  position: relative;
+  max-width: 550px;
+  z-index: 30;
+}
+.readymaid__app__form__right__heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: #3cb149;
+}
+.readymaid__app__form__right__text {
+  color: #000000;
+}
+.readymaid__app__form__right__text__start {
+  color: #3cb149;
+}
+.product__section {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+}
+.footer__sec__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0em 2em;
+  display: flex;
+}
+.footer__sec__container__left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 1em 1em;
+}
+.footer__sec__container__left input {
+  padding: 0.5em 1.5em;
+}
+.input__container {
+  display: flex;
+  align-items: center;
+  background-color: #e5e5e5;
+  padding: 0.5em 2em;
+  width: 100%;
+  margin-bottom: 1em;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid #e5e5e5;
+}
+.input__container:hover {
+  border: 1px solid #3cb149;
+}
+
+.input__container__input {
+  width: 100%;
+}
+.input__container__input input {
+  padding: 0.5em 2em;
+  width: 100%;
+  background-color: #e5e5e5;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  color: #000000;
+}
+.input__container__input input::placeholder {
+  color: #000000;
+}
+// .svg1 {
+//   position: absolute;
+//   top: 8px;
+//   left: 5px;
+// }
+.svg1 svg {
+  width: 20px;
+  margin-right: 10px;
+}
+.footer__sec__container__left textarea {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 1em 1em;
+  outline: none;
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+}
+.footer__sec__container__left textarea:hover {
+  border: 1px solid #3cb149;
+}
+.footer__sec__container__left textarea::placeholder {
+  color: #000000;
+}
+
+.footer__sec__container__right {
+  width: 50%;
+  border-left: 2px solid #000000;
+}
+.footer__sec__container__right__content {
+  padding: 1em 1em;
+}
+.footer__sec__container__right__content__data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+.footer__sec__container__right__content__data__svg {
+  margin-right: 3em;
+}
+
+.footer__sec__container__right__content__data__text a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+.footer__sec__container__right__content__data__text a:hover {
+  color: #3cb149;
+  text-decoration: underline;
+}
+.footer__btn {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0em 3em;
+  margin: 0 auto;
+}
+.footer__submit__btn {
+  background-color: #000000;
+  padding: 0.8em 1.5em;
+  border-radius: 17px;
+  margin-top: 2em;
+  color: #fff;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+.footer__submit__btn:hover {
+  background-color: #3cb149;
+  color: #fff;
+}
+.footer__bottom {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer__bottom__container__logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer__bottom__container__img {
+  width: 100%;
+  margin: 0 auto;
+}
+.footer__bottom__container__img img {
+  width: 120px;
+  height: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin: 1em;
+}
+.footer__header__links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__header__links a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3 ease-in-out;
+  margin-bottom: 10px;
+}
+.footer__header__links a:hover {
+  color: #3cb149;
+  text-decoration: underline;
+}
+.footer__copyright {
+  text-align: center;
+}
 @media (max-width: 1000px) {
+  .accordian__section__heading {
+    position: relative;
+  }
   .home__jumbotron__content__right {
     align-items: center;
   }
@@ -753,6 +1283,39 @@ body {
   .industry__overview__section__entry__container__cards {
     width: 50%;
   }
+  .readymaid__app__form__right {
+    width: 100%;
+  }
+  .smart__wrapper__img {
+    width: 170%;
+    margin-left: -30%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 900px) {
+  .benefit__section__img {
+    min-height: 400px;
+  }
+  .readymaid__app__form__container {
+    flex-direction: column;
+    align-items: center;
+    margin: 2em auto;
+  }
+  .readymaid__app__form__container__left {
+    width: 100%;
+  }
+  .readymaid__app__form__right {
+    max-width: 100%;
+  }
+  .readymaid__app__form__container__right {
+    width: 100%;
+    padding: 0em;
+  }
+  .readymaid__app__form__right {
+    margin-top: 1em;
+  }
 }
 @media (max-width: 870px) {
   .About__section__content__card__layout {
@@ -763,7 +1326,35 @@ body {
     width: 62%;
   }
 }
-
+@media (max-width: 880px) {
+  .benefit__card__interior {
+    padding: 1em 1em;
+  }
+  .benefit__card__structure {
+    width: 100%;
+  }
+  .footer__sec__container {
+    flex-direction: column;
+  }
+  .footer__sec__container__left {
+    width: 100%;
+  }
+  .footer__sec__container__right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: none;
+  }
+  .footer__btn {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: -20px;
+  }
+}
 @media (max-width: 800px) {
   .header__mobile__btn {
     display: flex;
@@ -829,7 +1420,7 @@ body {
     max-width: 80%;
   }
   .accordian__section {
-    padding: 1em 0.5em;
+    padding: 0em 0.5em;
   }
   .accordian__section__entry {
     width: 100%;
@@ -841,6 +1432,19 @@ body {
   }
   .payment__overview__section {
     overflow-x: hidden;
+  }
+  .smart__wrapper__img {
+    width: 180%;
+    margin-left: -30%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .safety__customer__section__background {
+    height: 100%;
+  }
+  .accordian__section__array {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
@@ -870,6 +1474,22 @@ body {
   .header__background__img {
     overflow-x: hidden;
   }
+  .readymaid__app__form__right {
+    padding: 1em;
+  }
+  .readymaid__app__form__container {
+    padding: 1em;
+  }
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .safety__customer__section__background {
+    height: 100%;
+  }
 }
 @media (max-width: 550) {
   .payment__overview__section__img {
@@ -886,10 +1506,65 @@ body {
   .header__background__img {
     overflow-x: hidden;
   }
+  .readymaid__app__form__container {
+    padding: 0;
+  }
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -30%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .quality__services__section {
+    width: 200%;
+    margin-left: -50%;
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 470px) {
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .benefit__secton__banner__data {
+    margin-top: 3em;
+  }
+  .smart__solution__container__heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  .benefit__card {
+    margin: 0em 0em;
+    width: 100%;
+  }
+  .benefit__card__structure {
+    height: 100%;
+  }
+  .benefit__card__interior {
+    margin: 0 auto;
+  }
+  .resources__section {
+    margin-top: 1em;
+  }
 }
 @media (max-width: 400px) {
   .Solution__heading__main__head {
     text-align: center;
+  }
+  .benefit__secton__banner__data__heading {
+    font-size: 25px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 0.5em;
+  }
+  .benefit__section__banner__data__heading__text {
+    width: 100%;
   }
   .home__jumbotron__content__left__heading {
     font-size: 25px;
@@ -939,6 +1614,25 @@ body {
   }
   .header__background__img {
     overflow-x: hidden;
+  }
+  .smart__wrapper__img {
+    width: 200%;
+    margin-left: -40%;
+  }
+  .smart__solution__section {
+    overflow-x: hidden;
+  }
+  .Safety__Cards__section__container {
+    width: 100%;
+  }
+  .resources__secton__content__heading {
+    font-size: 28px;
+  }
+  .resources__secton__content__text {
+    font-size: 12px;
+  }
+  .payment__overview__section__info {
+    text-align: center;
   }
 }
 

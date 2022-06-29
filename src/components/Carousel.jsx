@@ -6,7 +6,7 @@ import "swiper/css";
 export default function Carousel() {
   const [slidesPerPage, setSlidesPerPage] = useState(1);
   useEffect(() => {
-    if (window.innerWidth <= 398) {
+    if (window.innerWidth <= 500) {
       setSlidesPerPage(1.2);
     } else if (window.innerWidth <= 600) {
       setSlidesPerPage(2);
@@ -18,7 +18,7 @@ export default function Carousel() {
       setSlidesPerPage(3);
     }
     window.addEventListener("resize", () => {
-      if (window.innerWidth <= 398) {
+      if (window.innerWidth <= 500) {
         setSlidesPerPage(1.2);
       } else if (window.innerWidth <= 600) {
         setSlidesPerPage(2);
