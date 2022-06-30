@@ -7,6 +7,7 @@ import Benefit from "./screens/Benefit__to__Customers";
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import Login from "./screens/Login";
+import Signup from "./screens/signup";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/benefits" element={<Benefit />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
       <Footer />
     </>
