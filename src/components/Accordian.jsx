@@ -36,24 +36,28 @@ export default function Accordian() {
   return (
     <div className="accordian__section">
       <div className="accordian__section__container__heading">
-        <div className="accordian__section__heading">Faq</div>
-        <div className="accordian__section__heading__para">
-          All you need to know!
+        <div className="accordian__section__container__heading__left">
+          <div className="accordian__section__array">
+            {Faqarray.map((item, index) => {
+              console.log(item);
+              return (
+                <Faqs
+                  questions={item.questions}
+                  selected={selected}
+                  setSelected={setSelected}
+                  index={index}
+                  answer={item.answer}
+                />
+              );
+            })}
+          </div>
         </div>
-      </div>
-      <div className="accordian__section__array">
-        {Faqarray.map((item, index) => {
-          console.log(item);
-          return (
-            <Faqs
-              questions={item.questions}
-              selected={selected}
-              setSelected={setSelected}
-              index={index}
-              answer={item.answer}
-            />
-          );
-        })}
+        <div className="accordian__section__container__heading__right">
+          <div className="accordian__section__heading">Faq</div>
+          <div className="accordian__section__heading__para">
+            All you need to know!
+          </div>
+        </div>
       </div>
     </div>
   );

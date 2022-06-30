@@ -105,6 +105,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .home__services__content__main__entry {
   margin: 1em;
@@ -176,7 +178,7 @@ body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  margin: 2em 0em;
+  margin-top: 2em;
 }
 .Solution__heading {
   width: 100%;
@@ -348,7 +350,6 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0em 2em;
-  margin: 2em 0em;
 }
 .About__section__container__heading {
   width: 100%;
@@ -615,7 +616,7 @@ body {
   display: flex;
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 500px;
   margin-top: 2em;
 }
 .quality__services__section__banner__img {
@@ -673,19 +674,27 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1em 0em;
   height: 500px;
   position: relative;
 }
 .accordian__section__container__heading {
-  position: absolute;
-  top: 0;
+  display: flex;
+  width: 100%;
+}
+.accordian__section__container__heading__left {
+  width: 70%;
+  display: flex;
+  justify-content: end;
+}
+.accordian__section__container__heading__right {
+  width: 30%;
+  position: relative;
+  margin-left: 0.5em;
 }
 .accordian__section__heading {
   font-size: 17px;
   font-weight: 600;
   position: relative;
-  right: 0;
 }
 .accordian__section__heading::after {
   content: "";
@@ -838,28 +847,26 @@ body {
 .resources__section {
   margin-top: 7em;
   width: 100%;
-  background-size: cover;
   position: relative;
 }
 .resources__section__img {
   width: 100%;
-  height: 650px;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+  left: -0px;
+  top: 0px;
 }
 .resources__secton__banner {
-  position: absolute;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 600px;
-  top: 0px;
 }
 .resources__secton__banner__content {
   max-width: 1440px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .resources__secton__content__heading {
   font-size: 35px;
@@ -884,10 +891,8 @@ body {
 .resources__swiper {
   display: flex;
   width: 100%;
-  position: absolute;
   max-width: 1440px;
   padding: 0em 1em;
-  bottom: 0;
 }
 .swiper__slide__resources {
   width: 100%;
@@ -897,8 +902,9 @@ body {
   height: 230px;
   margin-top: 2em;
   background-color: #efefef;
-  padding: 1em;
+  padding: 2em;
   border-radius: 15px;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 .resources__card__1:hover {
@@ -942,7 +948,7 @@ body {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  padding: 2em 0em;
+  padding: 4em 0em;
 }
 .safety__customer__section__content {
   max-width: 1440px;
@@ -968,49 +974,60 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   height: 100%;
-  flex-wrap: wrap;
   position: relative;
-
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .Safety__Cards__section__container {
-  padding: 1em;
+  padding: 0em 1em;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  width: 400px;
+  align-items: center;
+  width: 50%;
+  min-width: 400px;
 }
+
 .Safety__Card__section__img {
   text-align: center;
 }
 .Safety__Card__section__img svg {
   background-color: #fff;
-  padding: 0.5em;
+  padding: 1em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 40px;
-  margin-bottom: -20px;
+  margin-bottom: -40px;
   position: relative;
   z-index: 20;
+  width: 80px;
+  height: 80px;
 }
 .Safety__Card__content {
   width: 100%;
-  height: 150px;
-  background-color: #d6d1d1;
-  padding: 1em;
-  border-radius: 20px;
+  min-width: 400px;
+  height: 180px;
+  background-color: #efefef;
+  padding: 2em 5em;
+  border-radius: 12px;
+  margin-bottom: 1em;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 .Safety__Card__content:hover {
   background-color: #3cb149;
+  color: white;
 }
 .Safety__Card__section__heading {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
+  margin-top: 0.5em;
 }
 .Safety__Card__section__text {
   text-align: center;
+  font-size: 14px;
+  margin-top: 0.5em;
 }
 
 //smart__solution__section
@@ -1061,6 +1078,11 @@ body {
 }
 .readymaid__app__form__container__left {
   width: 50%;
+  padding: 0em 1em;
+}
+.readymaid__app__form__container__left__content {
+  width: 100%;
+  font-size: 20px;
 }
 .readymaid__app__form__container__right {
   width: 50%;
@@ -1136,11 +1158,10 @@ body {
 .input__container__input input::placeholder {
   color: #000000;
 }
-// .svg1 {
-//   position: absolute;
-//   top: 8px;
-//   left: 5px;
-// }
+.svg1 {
+  display: flex;
+  align-items: center;
+}
 .svg1 svg {
   width: 20px;
   margin-right: 10px;
@@ -1176,6 +1197,10 @@ body {
 }
 .footer__sec__container__right__content__data__svg {
   margin-right: 3em;
+}
+.footer__sec__container__right__content__data__svg svg {
+  width: 40px;
+  height: 40px;
 }
 
 .footer__sec__container__right__content__data__text a {
@@ -1224,6 +1249,17 @@ body {
 .footer__bottom__container__img {
   width: 100%;
   margin: 0 auto;
+  display: flex;
+}
+.footer__bottom__container__img button {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  margin: 1em;
 }
 .footer__bottom__container__img img {
   width: 120px;
@@ -1250,6 +1286,7 @@ body {
 .footer__copyright {
   text-align: center;
 }
+
 @media (max-width: 1000px) {
   .accordian__section__heading {
     position: relative;
@@ -1294,6 +1331,22 @@ body {
     overflow-x: hidden;
   }
 }
+@media (max-width: 950px) {
+  .accordian__section__container__heading {
+    flex-direction: column-reverse;
+  }
+  .accordian__section__container__heading__right {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .accordian__section__container__heading__left {
+    width: 100%;
+    justify-content: center;
+    margin-top: 0.5em;
+  }
+}
 @media (max-width: 900px) {
   .benefit__section__img {
     min-height: 400px;
@@ -1335,6 +1388,7 @@ body {
   }
   .footer__sec__container {
     flex-direction: column;
+    padding: 0;
   }
   .footer__sec__container__left {
     width: 100%;
@@ -1354,7 +1408,11 @@ body {
     margin-bottom: 1em;
     margin-top: -20px;
   }
+  .Safety__Cards__section__container {
+    width: 100%;
+  }
 }
+
 @media (max-width: 800px) {
   .header__mobile__btn {
     display: flex;
@@ -1550,6 +1608,14 @@ body {
   .resources__section {
     margin-top: 1em;
   }
+  .Safety__Cards__section__container {
+    min-width: 100%;
+  }
+  .Safety__Card__content {
+    min-width: 100%;
+    padding: 2em 1em;
+    height: 100%;
+  }
 }
 @media (max-width: 400px) {
   .Solution__heading__main__head {
@@ -1622,9 +1688,7 @@ body {
   .smart__solution__section {
     overflow-x: hidden;
   }
-  .Safety__Cards__section__container {
-    width: 100%;
-  }
+
   .resources__secton__content__heading {
     font-size: 28px;
   }
@@ -1633,6 +1697,12 @@ body {
   }
   .payment__overview__section__info {
     text-align: center;
+  }
+  .footer__sec__container__right__content {
+    padding: 0;
+  }
+  .footer__sec__container__right__content__data__svg {
+    margin-right: 1em;
   }
 }
 
