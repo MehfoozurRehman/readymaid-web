@@ -5,7 +5,7 @@ export default function ReadymaidAppFrom() {
     <div className="readymaid__app__form__section">
       <div className="readymaid__app__form__container">
         <div className="readymaid__app__form__container__left">
-          <div className="readymaid__app__form__container__left">
+          <div className="readymaid__app__form__container__left__content">
             Our aim is to take the hassle of managing Human Resources away from
             you in a unique, technologically advanced & convenient way so you
             can dedicatedly focus on the core business & its expansion.

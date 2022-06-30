@@ -301,8 +301,12 @@ export default function Footer() {
             </svg>
           </div>
           <div className="footer__bottom__container__img">
-            <img src={img1} alt="/" />
-            <img src={img2} alt="/" />
+            <button>
+              <img src={img1} alt="/" />
+            </button>
+            <button>
+              <img src={img2} alt="/" />
+            </button>
           </div>
           <div className="footer__header__links">
             <a href="#">Products</a>
@@ -312,7 +316,7 @@ export default function Footer() {
             <a href="#">Career</a>
           </div>
           <div className="footer__copyright">
-            Copyright 2022 All rights are reserved
+            Copyright 2022 All rights are reserved.
           </div>
         </div>
       </div>
