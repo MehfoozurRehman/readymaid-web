@@ -167,14 +167,6 @@ export default function Login() {
         </div>
       </div>
       <div className="login__jumbotron__buttons">
-        <div className="login__jumbotron__overlay__button">
-          <button className="overlay__button">Products</button>
-          <button className="overlay__button">saftey</button>
-          <button className="overlay__button">Help</button>
-          <button className="overlay__button">About us</button>
-          <button className="overlay__button">Carrer</button>
-        </div>
-      </div>
       <div className="login__jumbotron__end__content__heading__main">
       <div className="login__jumbotron__end__content__heading">
         <div className="login__jumbotron__end__content__heading_one">
@@ -192,6 +184,15 @@ export default function Login() {
      </div>
       </div>
       </div>
+        <div className="login__jumbotron__overlay__button">
+          <button className="overlay__button">Products</button>
+          <button className="overlay__button">saftey</button>
+          <button className="overlay__button">Help</button>
+          <button className="overlay__button">About us</button>
+          <button className="overlay__button">Carrer</button>
+        </div>
+      </div>
+  
     </>
   );
 }
