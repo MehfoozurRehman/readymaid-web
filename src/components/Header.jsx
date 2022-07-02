@@ -7,6 +7,7 @@ import { logo } from "../assets";
 
 export default function Header() {
   const [isHeaderOpen, setIsHeaderOpen] = useState(false);
+  const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
     if (window.innerWidth > 900) {
@@ -28,11 +29,19 @@ export default function Header() {
       } else {
         setIsHeaderOpen(false);
       }
+      if (window.scrollY > 0) {
+        setIsScrolling(true);
+      } else {
+        setIsScrolling(false);
+      }
     });
   }, []);
 
   return (
-    <div className="header">
+    <div
+      className="header"
+      style={isScrolling ? { backgroundColor: "white" } : null}
+    >
       <div className="header__content">
         <Link to="/" className="header__content__logo">
           <img
