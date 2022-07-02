@@ -12,10 +12,19 @@ body {
   font-size: 14px;
   font-family: "Jost", sans-serif;
 }
+button,
+a {
+  white-space: nowrap;
+}
+button:hover,
+a:hover {
+  transition: 300ms ease-in-out;
+}
 .header {
   width: 100%;
   position: fixed;
   top: 0px;
+  z-index: 9999;
 }
 .header__content {
   width: 100%;
@@ -106,6 +115,74 @@ body {
   background-color: #3cb149;
   color: white;
 }
+.home__jumbotron {
+  width: 100%;
+  position: relative;
+  height: 700px;
+}
+.home__jumbotron__img {
+  width: 100%;
+  height: 100%;
+}
+.home__jumbotron__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.home__jumbotron__overlay__content {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2em;
+  height: 100%;
+  margin: 0em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home__jumbotron__overlay__content__heading {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.home__jumbotron__overlay__content__info {
+  width: 100%;
+  max-width: 400px;
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+.home__jumbotron__overlay__content__buttons {
+  display: flex;
+  align-items: center;
+}
+.home__jumbotron__overlay__content__buttons__link {
+  margin-right: 1em;
+}
+.home__jumbotron__overlay__content__buttons__link__img {
+  width: 150px;
+  height: 50px;
+}
+.home__sale {
+  width: 100%;
+  max-width: 1440px;
+  padding: 4em 2em;
+  margin: 0em auto;
+}
+.home__sale__entry {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: none;
+}
+.home__sale__entry__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  mix-blend-mode: luminosity;
+}
 @media (max-width: 900px) {
   .header__content__nav__buttons__button__menu {
     display: flex;
@@ -121,5 +198,32 @@ body {
   }
   .header__content__nav__link {
     margin-left: 0em;
+  }
+  .home__jumbotron__img {
+    width: 150%;
+    margin-left: -40%;
+  }
+}
+@media (max-width: 650px) {
+  .header__content__logo__img {
+    width: 50px;
+  }
+  .home__jumbotron__img {
+    width: 200%;
+    margin-left: -100%;
+  }
+  .home__jumbotron__overlay__content {
+    align-items: center;
+  }
+  .home__jumbotron__overlay__content * {
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .home__jumbotron__overlay__content__buttons {
+    flex-direction: column;
+  }
+  .home__jumbotron__overlay__content__buttons__link {
+    margin-right: 0em;
   }
 }
