@@ -195,9 +195,14 @@ a:hover {
     background-color: white;
     padding: 1em;
     border-radius: 10px;
+    padding-bottom: 0.5em;
+    width: 200px;
   }
   .header__content__nav__link {
     margin-left: 0em;
+    margin-bottom: 0.5em;
+    width: 100%;
+    text-align: center;
   }
   .home__jumbotron__img {
     width: 150%;

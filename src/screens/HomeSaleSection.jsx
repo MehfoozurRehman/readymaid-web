@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { salebanner } from "../assets";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { salebanner } from "../assets";
 
 export function HomeSaleSection({}) {
   const [slidesPerView, setSlidesPerView] = useState(3);

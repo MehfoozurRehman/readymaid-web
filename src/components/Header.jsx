@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
 import OutsideClickHandler from "react-outside-click-handler";
+import { Link } from "react-router-dom";
 import { X, Menu } from "react-feather";
+import { NavLink } from "./NavLink";
 import { logo } from "../assets";
 
 export default function Header() {
@@ -15,6 +16,13 @@ export default function Header() {
     }
 
     window.addEventListener("resize", () => {
+      if (window.innerWidth > 900) {
+        setIsHeaderOpen(true);
+      } else {
+        setIsHeaderOpen(false);
+      }
+    });
+    window.addEventListener("scroll", () => {
       if (window.innerWidth > 900) {
         setIsHeaderOpen(true);
       } else {
@@ -43,11 +51,46 @@ export default function Header() {
               }}
             >
               <div className="header__content__nav__links">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/benefits">Benefits</NavLink>
-                <NavLink to="/products">Products</NavLink>
-                <NavLink to="/aboutus">About Us</NavLink>
-                <NavLink to="/contactus">Contact Us</NavLink>
+                <NavLink
+                  to="/"
+                  onClick={() => {
+                    setIsHeaderOpen(false);
+                  }}
+                >
+                  Home
+                </NavLink>
+                <NavLink
+                  to="/benefits"
+                  onClick={() => {
+                    setIsHeaderOpen(false);
+                  }}
+                >
+                  Benefits
+                </NavLink>
+                <NavLink
+                  to="/products"
+                  onClick={() => {
+                    setIsHeaderOpen(false);
+                  }}
+                >
+                  Products
+                </NavLink>
+                <NavLink
+                  to="/aboutus"
+                  onClick={() => {
+                    setIsHeaderOpen(false);
+                  }}
+                >
+                  About Us
+                </NavLink>
+                <NavLink
+                  to="/contactus"
+                  onClick={() => {
+                    setIsHeaderOpen(false);
+                  }}
+                >
+                  Contact Us
+                </NavLink>
               </div>
             </OutsideClickHandler>
           ) : null}
@@ -73,23 +116,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </div>
-  );
-}
-
-function NavLink({ to, children }) {
-  const navigate = useNavigate();
-  return (
-    <div className="header__content__nav__link">
-      <input
-        type="radio"
-        className="header__content__nav__link__input"
-        name="header__content__nav__link"
-        defaultChecked={window.location.pathname === to}
-        id={children}
-        onChange={() => navigate(to)}
-      />
-      <div className="header__content__nav__link__content">{children}</div>
     </div>
   );
 }
