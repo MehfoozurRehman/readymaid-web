@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 import { Link } from "react-router-dom";
 import { X, Menu } from "react-feather";
@@ -9,7 +9,7 @@ export default function Header() {
   const [isHeaderOpen, setIsHeaderOpen] = useState(false);
   const [isScrolling, setIsScrolling] = useState(false);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     if (window.innerWidth > 900) {
       setIsHeaderOpen(true);
     } else {
