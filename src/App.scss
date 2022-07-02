@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 *,
 *::after,
 *::before {
@@ -10,7 +10,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-size: 14px;
-  font-family: "Jost", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 button,
 a {
@@ -150,7 +150,7 @@ a:hover {
 }
 .home__jumbotron__overlay__content__info {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   font-size: 18px;
   margin-bottom: 2em;
 }
@@ -170,6 +170,7 @@ a:hover {
   max-width: 1440px;
   padding: 4em 2em;
   margin: 0em auto;
+  margin-top: 2em;
 }
 .home__sale__entry {
   width: 100%;
@@ -182,6 +183,64 @@ a:hover {
   height: 100%;
   border-radius: 15px;
   mix-blend-mode: luminosity;
+}
+.home__solutions {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2em 2em;
+  margin: 0em auto;
+}
+.home__solutions__heading {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.home__solutions__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0em -1em;
+}
+.home__solutions__content__entry {
+  width: 18%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.home__solutions__content__entry__icon {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3cb149;
+  margin-bottom: 2em;
+}
+.home__solutions__content__entry__icon svg {
+  width: 80px;
+  height: 80px;
+}
+.home__solutions__content__entry__text {
+  color: black;
+  font-size: 16px;
+}
+.home__solutions__content__entry:hover .home__solutions__content__entry__icon {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .home__solutions__content__entry {
+    width: 23%;
+  }
 }
 @media (max-width: 900px) {
   .header__content__nav__buttons__button__menu {
@@ -209,6 +268,11 @@ a:hover {
     margin-left: -40%;
   }
 }
+@media (max-width: 800px) {
+  .home__solutions__content__entry {
+    width: 31%;
+  }
+}
 @media (max-width: 650px) {
   .header__content__logo__img {
     width: 50px;
@@ -223,6 +287,9 @@ a:hover {
   .home__jumbotron__overlay__content * {
     text-align: center;
   }
+  .home__solutions__content__entry {
+    width: 48%;
+  }
 }
 @media (max-width: 400px) {
   .home__jumbotron__overlay__content__buttons {
@@ -230,5 +297,13 @@ a:hover {
   }
   .home__jumbotron__overlay__content__buttons__link {
     margin-right: 0em;
+  }
+  .home__solutions__content__entry__icon {
+    width: 120px;
+    height: 120px;
+  }
+  .home__solutions__content__entry__icon svg {
+    width: 60px;
+    height: 60px;
   }
 }

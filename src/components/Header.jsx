@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 import { Link } from "react-router-dom";
 import { X, Menu } from "react-feather";
@@ -9,7 +9,7 @@ export default function Header() {
   const [isHeaderOpen, setIsHeaderOpen] = useState(false);
   const [isScrolling, setIsScrolling] = useState(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (window.innerWidth > 900) {
       setIsHeaderOpen(true);
     } else {
@@ -63,7 +63,9 @@ export default function Header() {
                 <NavLink
                   to="/"
                   onClick={() => {
-                    setIsHeaderOpen(false);
+                    if (window.innerWidth < 900) {
+                      setIsHeaderOpen(false);
+                    }
                   }}
                 >
                   Home
@@ -71,7 +73,9 @@ export default function Header() {
                 <NavLink
                   to="/benefits"
                   onClick={() => {
-                    setIsHeaderOpen(false);
+                    if (window.innerWidth < 900) {
+                      setIsHeaderOpen(false);
+                    }
                   }}
                 >
                   Benefits
@@ -79,7 +83,9 @@ export default function Header() {
                 <NavLink
                   to="/products"
                   onClick={() => {
-                    setIsHeaderOpen(false);
+                    if (window.innerWidth < 900) {
+                      setIsHeaderOpen(false);
+                    }
                   }}
                 >
                   Products
@@ -87,7 +93,9 @@ export default function Header() {
                 <NavLink
                   to="/aboutus"
                   onClick={() => {
-                    setIsHeaderOpen(false);
+                    if (window.innerWidth < 900) {
+                      setIsHeaderOpen(false);
+                    }
                   }}
                 >
                   About Us
@@ -95,7 +103,9 @@ export default function Header() {
                 <NavLink
                   to="/contactus"
                   onClick={() => {
-                    setIsHeaderOpen(false);
+                    if (window.innerWidth < 900) {
+                      setIsHeaderOpen(false);
+                    }
                   }}
                 >
                   Contact Us
