@@ -5,6 +5,7 @@ import { HomePaymentsSection } from "./HomePaymentsSection";
 import { HomeSaleSection } from "./HomeSaleSection";
 import { HomeSolutionsSection } from "./HomeSolutionsSection";
 import { HomeIndustrySection } from "./HomeIndustrySection";
+import { HomeJoinTeamSection } from "./HomeJoinTeamSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <HomeCareSection />
       <HomePaymentsSection />
       <HomeIndustrySection />
+      <HomeJoinTeamSection />
     </>
   );
 }

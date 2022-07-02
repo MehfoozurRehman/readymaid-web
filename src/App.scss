@@ -377,6 +377,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 2em;
 }
 .home__payments__overlay__heading {
   font-size: 30px;
@@ -393,10 +394,12 @@ a:hover {
   width: 50%;
   height: 3px;
   background-color: #ffd857;
+  text-align: center;
 }
 .home__payments__overlay__info {
   font-size: 16px;
   color: white;
+  text-align: center;
 }
 .home__payments__overlay__info a {
   color: white;
@@ -469,6 +472,55 @@ a:hover {
 }
 .home__industry__content__entry:nth-child(2) {
   flex-direction: column-reverse;
+}
+.home__join__team {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  margin: 4em 0em;
+}
+.home__join__team__img {
+  width: 100%;
+  height: 100%;
+}
+.home__join__team__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+.home__join__team__overlay__slogan {
+  font-size: 20px;
+  color: #ffd857;
+  font-weight: bold;
+  text-align: center;
+}
+.home__join__team__overlay__sub__heading {
+  font-size: 30px;
+  color: black;
+  margin: 0.3em 0em;
+  text-align: center;
+}
+.home__join__team__overlay__heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.home__join__team__overlay__heading span {
+  color: #3cb149;
+}
+.home__join__team__overlay__info {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  font-size: 16px;
 }
 @media (max-width: 1000px) {
   .home__solutions__content__entry {

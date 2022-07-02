@@ -10,3 +10,4 @@ export { default as simplifiedpayments } from "./simplifiedpayments.png";
 export { default as happycustomer } from "./happycustomer.png";
 export { default as givingbacktosociety } from "./givingbacktosociety.png";
 export { default as empoweringresources } from "./empoweringresources.png";
+export { default as joinourteam } from "./joinourteam.png";
