@@ -591,6 +591,72 @@ a:hover {
   height: 3px;
   background-color: #ffd857;
 }
+.about__jumbotron {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.about__jumbotron__img {
+  width: 100%;
+  height: 100%;
+}
+.about__jumbotron__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.about__jumbotron__overlay__heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.about__jumbotron__overlay__info {
+  width: 100%;
+  max-width: 800px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  margin-bottom: 1.5em;
+}
+.about__jumbotron__overlay__buttons {
+  display: flex;
+  align-items: center;
+}
+.about__jumbotron__overlay__buttons__link {
+  height: 38px;
+  padding: 0em 2em;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 0em 0.5em;
+}
+.about__jumbotron__overlay__buttons__link__primary {
+  background-color: #3cb149;
+  color: white;
+}
+.about__jumbotron__overlay__buttons__link__primary:hover {
+  background-color: #ffd857;
+  color: black;
+}
+.about__jumbotron__overlay__buttons__link__secondary {
+  background-color: black;
+  color: white;
+}
+.about__jumbotron__overlay__buttons__link__secondary:hover {
+  background-color: #ffd857;
+  color: black;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -644,6 +710,10 @@ a:hover {
     width: 150%;
     margin-left: -40%;
   }
+  .about__jumbotron__img {
+    width: 120%;
+    margin-left: -10%;
+  }
 }
 @media (max-width: 800px) {
   .home__solutions__content__entry {
@@ -681,6 +751,10 @@ a:hover {
   }
   .home__jumbotron__img {
     width: 200%;
+    margin-left: -100%;
+  }
+  .about__jumbotron__img {
+    width: 300%;
     margin-left: -100%;
   }
   .home__jumbotron__overlay__content {

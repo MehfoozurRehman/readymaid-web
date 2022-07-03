@@ -11,3 +11,6 @@ export { default as happycustomer } from "./happycustomer.png";
 export { default as givingbacktosociety } from "./givingbacktosociety.png";
 export { default as empoweringresources } from "./empoweringresources.png";
 export { default as joinourteam } from "./joinourteam.png";
+export { default as aboutjumbotron } from "./aboutjumbotron.png";
+export { default as keyfectors } from "./keyfectors.png";
+export { default as readymaidconcepts } from "./readymaidconcepts.png";
