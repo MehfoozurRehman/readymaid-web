@@ -16,3 +16,4 @@ export { default as keyfectors } from "./keyfectors.png";
 export { default as readymaidconcepts } from "./readymaidconcepts.png";
 export { default as ourmission } from "./ourmission.png";
 export { default as ourstory } from "./ourstory.png";
+export { default as benifitsjumbotron } from "./benifitsjumbotron.png";

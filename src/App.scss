@@ -713,6 +713,60 @@ a:hover {
 .about__keyfactors .about__concepts__content {
   padding-left: 0em;
 }
+.benefits__features {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2em;
+  margin: 0em auto;
+  margin-top: -10em;
+  position: relative;
+  z-index: 50;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 0em;
+}
+.benefits__features__entry {
+  width: 32%;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-radius: 20px;
+}
+.benefits__features__entry__icon {
+  color: #3cb149;
+  background-color: #fff7dc;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.benefits__features__entry__icon svg {
+  width: 25px;
+  height: 25px;
+}
+.benefits__features__entry__heading {
+  font-size: 20px;
+  margin: 0.7em 0em;
+  font-weight: bold;
+}
+.benefits__features__entry__info {
+  width: 100%;
+}
+.benefits__features__entry:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+}
+.benefits__features__entry:hover .benefits__features__entry__heading {
+  color: white;
+}
+.benefits__features__entry:hover .benefits__features__entry__info {
+  color: white;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
