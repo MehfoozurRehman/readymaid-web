@@ -15,3 +15,4 @@ export { default as aboutjumbotron } from "./aboutjumbotron.png";
 export { default as keyfectors } from "./keyfectors.png";
 export { default as readymaidconcepts } from "./readymaidconcepts.png";
 export { default as ourmission } from "./ourmission.png";
+export { default as ourstory } from "./ourstory.png";
