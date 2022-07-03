@@ -767,6 +767,95 @@ a:hover {
 .benefits__features__entry:hover .benefits__features__entry__info {
   color: white;
 }
+.products__jumbotron {
+  padding: 4em 0em;
+  width: 100%;
+  padding-top: 10em;
+  background-color: #f8f8f8;
+}
+.products__jumbotron__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0em 2em;
+}
+.products__jumbotron__header__heading {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+.products__jumbotron__header__info {
+  text-align: center;
+  font-size: 16px;
+}
+.products__jumbotron__content {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2em;
+  margin: 0em auto;
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.products__jumbotron__content__entry {
+  width: 31%;
+  position: relative;
+  margin: 1%;
+}
+.products__jumbotron__content__entry__input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.products__jumbotron__content__entry__content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2.5em;
+}
+.products__jumbotron__content__entry__content__icon {
+  color: #3cb149;
+}
+.products__jumbotron__content__entry__content__icon svg {
+  width: 80px;
+  height: 80px;
+}
+.products__jumbotron__content__entry__content__sub__heading {
+  font-size: 20px;
+  color: black;
+  margin-top: 1em;
+}
+.products__jumbotron__content__entry__content__heading {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.products__jumbotron__content__entry__input:hover
+  ~ .products__jumbotron__content__entry__content,
+.products__jumbotron__content__entry__input:checked
+  ~ .products__jumbotron__content__entry__content {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+}
+.products__jumbotron__content__entry__input:hover
+  ~ .products__jumbotron__content__entry__content
+  *,
+.products__jumbotron__content__entry__input:checked
+  ~ .products__jumbotron__content__entry__content
+  * {
+  transition: 300ms ease-in-out;
+  color: white;
+}
+
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -835,6 +924,9 @@ a:hover {
     width: 120%;
     margin-left: -10%;
   }
+  .products__jumbotron__content__entry {
+    width: 48%;
+  }
 }
 @media (max-width: 800px) {
   .home__solutions__content__entry {
@@ -886,6 +978,9 @@ a:hover {
   }
   .home__solutions__content__entry {
     width: 48%;
+  }
+  .products__jumbotron__content__entry {
+    width: 100%;
   }
 }
 @media (max-width: 400px) {
