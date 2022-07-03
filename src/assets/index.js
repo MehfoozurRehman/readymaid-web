@@ -14,3 +14,4 @@ export { default as joinourteam } from "./joinourteam.png";
 export { default as aboutjumbotron } from "./aboutjumbotron.png";
 export { default as keyfectors } from "./keyfectors.png";
 export { default as readymaidconcepts } from "./readymaidconcepts.png";
+export { default as ourmission } from "./ourmission.png";

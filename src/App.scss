@@ -400,6 +400,8 @@ a:hover {
   font-size: 16px;
   color: white;
   text-align: center;
+  width: 100%;
+  max-width: 800px;
 }
 .home__payments__overlay__info a {
   color: white;
@@ -657,6 +659,55 @@ a:hover {
   background-color: #ffd857;
   color: black;
 }
+.about__concepts {
+  margin: 0em auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0em 2em;
+  margin-top: 5em;
+  display: flex;
+}
+.about__concepts__img {
+  width: 50%;
+}
+.about__concepts__content {
+  width: 50%;
+  padding: 0em 3em;
+}
+.about__concepts__content__heading {
+  font-size: 25px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  max-width: 450px;
+}
+.about__concepts__content__list {
+  display: flex;
+  flex-direction: column;
+}
+.about__concepts__content__list__item {
+  margin-left: 2em;
+  position: relative;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+}
+.about__concepts__content__list__item::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2em;
+  width: 10px;
+  height: 10px;
+  background-color: #3cb149;
+  border-radius: 50px;
+}
+.about__keyfactors {
+  flex-direction: row-reverse;
+}
+.about__keyfactors .about__concepts__content {
+  padding-left: 0em;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -683,6 +734,17 @@ a:hover {
   }
   .home__faq__col:first-child {
     display: none;
+  }
+  .about__concepts {
+    flex-direction: column;
+  }
+  .about__concepts__img {
+    width: 100%;
+  }
+  .about__concepts__content {
+    padding: 2em 0em;
+    padding-bottom: 0em;
+    width: 100%;
   }
 }
 @media (max-width: 900px) {
