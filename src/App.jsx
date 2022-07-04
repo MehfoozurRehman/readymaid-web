@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./screens/Home";
 import "./App.scss";
 import "./about.scss";
+import "./footer.scss";
 import "swiper/scss";
 import AboutUs from "./screens/AboutUs";
 import Benifits from "./screens/Benifits";
