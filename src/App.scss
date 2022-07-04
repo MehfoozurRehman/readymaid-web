@@ -991,9 +991,12 @@ a:hover {
   color: white !important;
   background-color: white;
 }
+
+
+
 .benifits__safty {
   width: 100%;
-  background: url("./assets/aboutjumbotron.png"), no-repeat;
+  background: url("./assets/gray-abstract.png"), no-repeat;
   background-size: cover;
   height: 1000px;
 }
@@ -1002,6 +1005,151 @@ a:hover {
   max-width: 1440px;
   margin: 0em auto;
 }
+.benifits__safty__content_heading{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 3em 0em;
+   font-size: 30px;
+   font-weight: bold;
+}
+.benifits__safty__content__entries{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+
+
+}
+.benifits__safty__content__entries__entry{
+  border: 1px solid red;
+  width: 45%;
+  height: 50%;
+  margin: 2em;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+
+
+}
+.benifits__safty__content__entries_heading{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+
+}
+.benifits__safty__content__entries_para{
+  width: 95%;
+  text-align: center;
+  padding: 20px;
+  
+}
+.benifits__safty__content__entries__entry_svg {
+  top: -10;
+  margin: 0 auto;
+   border: 1px solid red;
+   padding: 1em;
+   border-radius: 50px;
+   position: absolute;
+
+
+}
+.Readymaid__Smart__Solution{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+.Readymaid__Smart__Solution_overlay{
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.Readymaid__Smart__Solution_overlay__heading{
+  font-size: 26px;
+  padding: 5px;
+}
+.Readymaid__Smart__Solution_pic{
+  width: 100%;
+  height: 100%;
+}
+
+.readymaid_app_card{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+}
+.readymaid_app_card_left{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.readymaid_app_card_right{
+  width: 60%;
+  
+}
+.readymaid_app_card_left_para{
+  width: 75%
+  
+
+
+}
+
+
+.readymaid_app_card_right_card{
+  background-color: #EFEFEF ;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  z-index: 999;
+  position: relative;
+  top: -140px;
+  width: 550px;
+  padding: 3em;
+
+}
+.readymaid_app_card_right_card_heading{
+  color: #3cb149;
+  font-size: 23px;
+}
+.readymaid_app_card_right_card_paragraph{
+  width: 90%;
+  padding: 1em 0em;
+
+}
+.readymaid_app_card_right_card_linea span{
+  color: #3cb149;
+}
+.readymaid_app_card_right_card_linea{
+   padding: 2px 0px;
+  width: 85%;
+}
+.readymaid_app_card_right_card_website{
+  color: #3cb149;
+font-size: 23px;
+padding:  1em 0em;
+
+}
+.readymaid_app_card_left_web_para{
+  width: 85%;
+}
+
+
+
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
