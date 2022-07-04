@@ -18,3 +18,4 @@ export { default as ourmission } from "./ourmission.png";
 export { default as ourstory } from "./ourstory.png";
 export { default as benifitsjumbotron } from "./benifitsjumbotron.png";
 export { default as becomeresourcebg } from "./becomeresourcebg.png";
+export { default as user } from "./user.png";

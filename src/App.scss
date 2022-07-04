@@ -211,6 +211,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  cursor: pointer;
 }
 .home__solutions__content__entry__icon {
   background-color: white;
@@ -233,6 +234,12 @@ a:hover {
   font-size: 16px;
 }
 .home__solutions__content__entry:hover .home__solutions__content__entry__icon {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
+.home__solutions__content__entry__active
+  .home__solutions__content__entry__icon {
   transition: 300ms ease-in-out;
   background-color: #3cb149;
   color: white;
@@ -1294,6 +1301,174 @@ a:hover {
   transition: 300ms ease-in-out;
   background-color: #3cb14a;
 }
+.products__get__resource__hire {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0em 2em;
+  margin: 0em auto;
+  margin-top: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__get__resource__hire__heading {
+  font-size: 25px;
+  color: black;
+}
+.products__get__resource__hire__heading span {
+  font-weight: bold;
+}
+.products__get__resource__hire__buttons {
+  margin: 2em 0em;
+  background-color: #fad96d;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+.products__get__resource__hire__buttons__button {
+  background-color: transparent;
+  color: black;
+  height: 50px;
+  padding: 0em 2em;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.products__get__resource__hire__buttons__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb14a;
+  color: white;
+}
+.products__get__resource__hire__buttons__button__active {
+  transition: 300ms ease-in-out;
+  background-color: #3cb14a;
+  color: white;
+}
+.products__get__resource__hire__details {
+  width: 100%;
+  max-width: 1440px;
+  padding: 7em 2em;
+  margin: 0em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__get__resource__hire__details__heading {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.products__get__resource__hire__details__content {
+  display: flex;
+  align-items: center;
+}
+.products__get__resource__hire__details__content__left {
+  flex: 1;
+  margin-right: 2em;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 2em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__get__resource__hire__details__content__left__heading {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  width: fit-content;
+  position: relative;
+  margin-bottom: 1em;
+}
+.products__get__resource__hire__details__content__left__heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 2px;
+  width: 100%;
+  background-color: #3cb14a;
+}
+.products__get__resource__hire__details__content__left__content {
+  width: 100%;
+  margin-bottom: 0.9em;
+}
+.products__get__resource__hire__details__content__left__address {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.products__get__resource__hire__details__content__left__address span {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0.5em;
+}
+.products__get__resource__hire__details__content__right {
+  padding: 2em;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__get__resource__hire__details__content__right__heading {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  width: fit-content;
+  position: relative;
+  margin-bottom: 1em;
+}
+.products__get__resource__hire__details__content__right__heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 2px;
+  width: 100%;
+  background-color: #3cb14a;
+}
+.products__get__resource__hire__details__content__right__content {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  overflow-y: auto;
+}
+.products__get__resource__hire__details__content__right__content::-webkit-scrollbar {
+  width: 5px;
+}
+.products__get__resource__hire__details__content__right__content::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+.products__get__resource__hire__details__content__right__content__entry {
+  padding: 2em;
+  background-color: #f2fbf8;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 1em;
+}
+.products__get__resource__hire__details__content__right__content__entry__left {
+  margin-right: 1em;
+  display: flex;
+  align-items: center;
+}
+.products__get__resource__hire__details__content__right__content__entry__left
+  img {
+  margin-right: 1em;
+}
+.products__get__resource__hire__details__content__right__content__entry__left__content__heading {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.products__get__resource__hire__details__content__right__content__entry__left__content {
+  display: flex;
+  flex-direction: column;
+}
+.products__get__resource__hire__details__content__right__content__entry__right {
+  flex: 1;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -1397,6 +1572,13 @@ a:hover {
   .products__buisness__packages__entry {
     width: 100%;
   }
+  .products__get__resource__hire__details__content {
+    flex-direction: column;
+  }
+  .products__get__resource__hire__details__content__left {
+    margin-right: 0em;
+    margin-bottom: 2em;
+  }
 }
 @media (max-width: 800px) {
   .home__solutions__content__entry {
@@ -1431,6 +1613,13 @@ a:hover {
   .home__payments__img {
     width: 250%;
     margin-left: -70%;
+  }
+  .products__get__resource__hire__details__content__right__content__entry {
+    flex-direction: column;
+  }
+  .products__get__resource__hire__details__content__right__content__entry__left {
+    margin-right: 0em;
+    margin-bottom: 1em;
   }
 }
 @media (max-width: 650px) {
