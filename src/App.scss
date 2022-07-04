@@ -995,10 +995,10 @@ a:hover {
 
 
 .benifits__safty {
-  width: 100%;
+  
   background: url("./assets/gray-abstract.png"), no-repeat;
   background-size: cover;
-  height: 1000px;
+  
 }
 .benifits__safty__content {
   width: 100%;
@@ -1012,7 +1012,19 @@ a:hover {
    padding: 3em 0em;
    font-size: 30px;
    font-weight: bold;
+   position: relative;
 }
+// .benifits__safty__content_heading::after{
+//   content: " ";
+//   position: absolute;
+//   width: 166px;
+//   // bottom: 0;
+//   height: 4px;
+//   bottom: 2.8em;
+//   background-color: #3cb149;
+//   right: 26%;
+
+// }
 .benifits__safty__content__entries{
   width: 100%;
   flex-wrap: wrap;
@@ -1021,10 +1033,56 @@ a:hover {
 
 
 }
+.benifits__safty__content__entries_heading22{
+   margin-top: -15px;
+   padding: 6px 0px;
+   font-size: 12px;
+}
+.benifits__safty__content__entries_heading4::before{
+  content: " ";
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  top: 3px;
+  bottom: 2.8em;
+  border-radius: 50px;
+  background-color: #3cb149;
+  left: -15px;
+  padding-right: 2px;
+}
+.benifits__safty__content__entries_heading45::before{
+  content: " ";
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  top: 3px;
+  bottom: 2.8em;
+  border-radius: 50px;
+  background-color: #3cb149;
+  left: -14px;
+  padding-right: 2px;
+}
+.benifits__safty__content__entries_heading45{
+  position: relative;
+}
+
+.benifits__safty__content__entries_heading4{
+  display: flex;
+  left: -40px;
+
+}
+
+
+.benifits__safty__content__entries_heading4{
+  position: relative;
+}
+
+
 .benifits__safty__content__entries__entry{
-  border: 1px solid red;
-  width: 45%;
-  height: 50%;
+  background-color: #EDEDED;
+  width: 40%;
+  position: relative;
+   padding: 2em;
   margin: 2em;
   border-radius: 1em;
   display: flex;
@@ -1037,28 +1095,32 @@ a:hover {
 
 }
 .benifits__safty__content__entries_heading{
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  align-items: center;
+margin-top: 2em;
+margin-bottom: 1em;
+font-size: 20px;
+font-weight: bold;
 
 }
 .benifits__safty__content__entries_para{
   width: 95%;
   text-align: center;
-  padding: 20px;
+
   
 }
 .benifits__safty__content__entries__entry_svg {
-  top: -10;
+  top: -35px;
   margin: 0 auto;
-   border: 1px solid red;
-   padding: 1em;
+   background-color: white;
+   padding: 1.5em;
    border-radius: 50px;
    position: absolute;
+   left: 40%;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
 
 
 }
+
 .Readymaid__Smart__Solution{
   width: 100%;
   height: 100%;
@@ -1188,7 +1250,31 @@ padding:  1em 0em;
     padding-bottom: 0em;
     width: 100%;
   }
+  .readymaid_app_card{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  .readymaid_app_card_right{
+    
+    width: 70%;
+  
+    max-width: 1440px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .readymaid_app_card_left{
+    width: 100%;
+  }
 }
+
+
+
 @media (max-width: 900px) {
   .header__content__nav__buttons__button__menu {
     display: flex;
@@ -1238,6 +1324,11 @@ padding:  1em 0em;
 @media (max-width: 800px) {
   .home__solutions__content__entry {
     width: 31%;
+  }
+}
+@media(max-width:768px){
+  .benifits__safty__content__entries__entry{
+    width: 100%;
   }
 }
 @media (max-width: 700px) {
@@ -1295,6 +1386,18 @@ padding:  1em 0em;
   .products__buisness__features__right__entry {
     width: 100%;
   }
+
+.readymaid_app_card_right_card{
+  padding: 2em;
+  
+}
+.readymaid_app_card_right_card_paragraph{
+  padding: 1em 0em;
+  width: 90%;
+}
+.readymaid_app_card_right_card_linea{
+  width: 100%;
+}
 }
 @media (max-width: 400px) {
   .home__jumbotron__overlay__content__buttons {
