@@ -9,7 +9,11 @@ export function HomeSolutionsSection() {
       </div>
       <div className="home__solutions__content">
         {homeSolutionsData.map((solution) => (
-          <a href="#" className="home__solutions__content__entry">
+          <a
+            href="#"
+            key={JSON.stringify(solution)}
+            className="home__solutions__content__entry"
+          >
             <div className="home__solutions__content__entry__icon">
               {solution.icon}
             </div>

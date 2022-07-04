@@ -17,7 +17,10 @@ export function ProductsBuisnessSection() {
         </div>
         <div className="products__buisness__features__right">
           {productsBuisnessFeaturesData.map((feature) => (
-            <div className="products__buisness__features__right__entry">
+            <div
+              className="products__buisness__features__right__entry"
+              key={JSON.stringify(feature)}
+            >
               <div className="products__buisness__features__right__entry__header">
                 {feature.icon} {feature.title}
               </div>

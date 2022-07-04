@@ -17,6 +17,7 @@ export function ProductsJumbotronSection({
       <div className="products__jumbotron__content">
         {productsJumbotronData.map((product) => (
           <ProductsJumbotronSectionEntry
+            key={JSON.stringify(product)}
             icon={product.icon}
             title={product.title}
             info={product.info}

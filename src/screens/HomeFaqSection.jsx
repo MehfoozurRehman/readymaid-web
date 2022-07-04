@@ -11,6 +11,7 @@ export function HomeFaqSection() {
       <div className="home__faq__col">
         {faqData.map((faq, i) => (
           <HomeFaqSectionEntry
+            key={JSON.stringify(faq)}
             index={i}
             heading={faq.heading}
             info={faq.info}
