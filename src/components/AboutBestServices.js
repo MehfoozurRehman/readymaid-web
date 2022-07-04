@@ -1,7 +1,7 @@
 import React from "react";
 import service from "../assets/serviceend.png";
 
-export function AboutBestServices({}) {
+export function AboutBestServices() {
   return (
     <div className="Best__services__coustomer__container">
       <div className="Best__services__coustomer__container__main">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export function BenifitsSafty({}) {
+export function BenifitsSafty() {
   return (
     <div className="benifits__safty">
       <div className="benifits__safty__content">

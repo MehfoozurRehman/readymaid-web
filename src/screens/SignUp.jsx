@@ -44,7 +44,7 @@ export default function SignUp() {
                   Remember me
                 </div>
                 <div className="signup__forgot__password">
-                  <a className="forgot__anchor" href="">
+                  <a className="forgot__anchor" href="#">
                     Forgot password
                   </a>
                 </div>

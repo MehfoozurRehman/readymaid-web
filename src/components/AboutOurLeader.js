@@ -1,7 +1,7 @@
 import React from "react";
 import ourleaders from "../assets/ourleader.png";
 
-export function AboutOurLeader({}) {
+export function AboutOurLeader() {
   return (
     <div className="about__us__our__leader_container">
       <div className="about__us__our__leader_container__overlay">

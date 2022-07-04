@@ -1,7 +1,7 @@
 import React from "react";
 import satisfied from "../assets/satisfied.png";
 
-export function AboutSatisfied({}) {
+export function AboutSatisfied() {
   return (
     <div className="satisfied__coustomer__main__container">
       <div className="satisfied__coustomer__main__container__heading">

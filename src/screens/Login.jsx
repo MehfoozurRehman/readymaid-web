@@ -65,7 +65,7 @@ export default function Login() {
                 <button className="button">Create an account</button>
               </div>
               <div className="login_all_second_container_button_two">
-                <a className="or" href="">
+                <a className="or" href="#">
                   or
                 </a>
               </div>

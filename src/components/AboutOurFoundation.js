@@ -2,7 +2,7 @@ import React from "react";
 import foundations from "../assets/foundation.png";
 import founder from "../assets/founder.png";
 
-export function AboutOurFoundation({}) {
+export function AboutOurFoundation() {
   return (
     <div className="about__us__our__foundation__all__containers">
       <img src={foundations} alt="" />

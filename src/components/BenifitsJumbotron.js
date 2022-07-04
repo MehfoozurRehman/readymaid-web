@@ -1,7 +1,7 @@
 import React from "react";
 import { benifitsjumbotron } from "../assets";
 
-export function BenifitsJumbotron({}) {
+export function BenifitsJumbotron() {
   return (
     <div className="about__jumbotron">
       <img

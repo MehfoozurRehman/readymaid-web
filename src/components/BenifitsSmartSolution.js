@@ -1,7 +1,7 @@
 import React from "react";
 import smartsolution from "../assets/smart solution.png";
 
-export function BenifitsSmartSolution({}) {
+export function BenifitsSmartSolution() {
   return (
     <div className="Readymaid__Smart__Solution">
       <img

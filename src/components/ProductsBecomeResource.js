@@ -1,7 +1,7 @@
 import React from "react";
 import { ProductsBecomeResourceInput } from "../components/ProductsBecomeResourceInput";
 
-export function ProductsBecomeResource({}) {
+export function ProductsBecomeResource() {
   return (
     <div className="products__become__resource">
       <div className="products__become__resource__form">

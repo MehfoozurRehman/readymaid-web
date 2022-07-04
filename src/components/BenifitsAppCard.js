@@ -1,6 +1,6 @@
 import React from "react";
 
-export function BenifitsAppCard({}) {
+export function BenifitsAppCard() {
   return (
     <div className="readymaid_app_card">
       <div className="readymaid_app_card_left">
