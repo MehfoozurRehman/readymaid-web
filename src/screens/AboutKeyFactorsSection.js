@@ -1,7 +1,7 @@
 import React from "react";
 import { keyfectors } from "../assets";
 
-export function AboutKeyFactorsSection({}) {
+export function AboutKeyFactorsSection() {
   const keyfectorsData = [
     "Unemployment rate of Pakistan is 5%.",
     "1 out of every 10 persons in the country is experiencing unemployment.",

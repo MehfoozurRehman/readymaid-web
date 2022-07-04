@@ -1,7 +1,7 @@
 import React from "react";
 import { joinourteam } from "../assets";
 
-export function HomeJoinTeamSection({}) {
+export function HomeJoinTeamSection() {
   return (
     <div className="home__join__team">
       <img

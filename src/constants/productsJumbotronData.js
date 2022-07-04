@@ -133,6 +133,7 @@ export const productsJumbotronData = [
     ),
     info: "Hire a",
     title: "Resource",
+    to: "GetResource",
   },
   {
     icon: (
@@ -162,6 +163,7 @@ export const productsJumbotronData = [
     ),
     info: "Become a",
     title: "Resource",
+    to: "BecomeResource",
   },
   {
     icon: (
@@ -192,6 +194,7 @@ export const productsJumbotronData = [
       </svg>
     ),
     info: "Readymaid for",
-    title: "Bussiness",
+    title: "Business",
+    to: "Buisness",
   },
 ];

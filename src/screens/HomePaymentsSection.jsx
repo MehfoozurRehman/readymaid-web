@@ -1,7 +1,7 @@
 import React from "react";
 import { simplifiedpayments } from "../assets";
 
-export function HomePaymentsSection({}) {
+export function HomePaymentsSection() {
   return (
     <div className="home__payments">
       <img

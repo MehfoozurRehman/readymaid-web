@@ -1,6 +1,7 @@
 import React from "react";
 import { benifitsjumbotron } from "../assets";
 import { benfitsFeaturesData } from "../constants/benfitsFeaturesData";
+import { BenifitsFeatureEntry } from "../components/BenifitsFeatureEntry";
 
 export default function Benifits() {
   return (
@@ -24,19 +25,12 @@ export default function Benifits() {
       </div>
       <div className="benefits__features">
         {benfitsFeaturesData.map((feature) => (
-          <BenifitsFeatureEntry feature={feature} />
+          <BenifitsFeatureEntry
+            key={JSON.stringify(feature)}
+            feature={feature}
+          />
         ))}
       </div>
     </>
-  );
-}
-
-function BenifitsFeatureEntry({ feature }) {
-  return (
-    <div className="benefits__features__entry">
-      <div className="benefits__features__entry__icon">{feature.icon}</div>
-      <div className="benefits__features__entry__heading">{feature.title}</div>
-      <div className="benefits__features__entry__info">{feature.info}</div>
-    </div>
   );
 }

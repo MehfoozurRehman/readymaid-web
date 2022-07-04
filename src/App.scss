@@ -792,7 +792,7 @@ a:hover {
 }
 .products__jumbotron__content {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   padding: 2em;
   margin: 0em auto;
   margin-top: 1em;
@@ -830,12 +830,12 @@ a:hover {
   height: 80px;
 }
 .products__jumbotron__content__entry__content__sub__heading {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   margin-top: 1em;
 }
 .products__jumbotron__content__entry__content__heading {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   font-weight: bold;
 }
@@ -855,7 +855,142 @@ a:hover {
   transition: 300ms ease-in-out;
   color: white;
 }
-
+.products__buisness__features__heading {
+  width: fit-content;
+  text-align: center;
+  margin: 3em auto;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+.products__buisness__features__heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 40%;
+  height: 3px;
+  background-color: #3cb149;
+}
+.products__buisness__features {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0em 2em;
+  margin: 0em auto;
+  display: flex;
+}
+.products__buisness__features__left {
+  width: 40%;
+  margin-right: 4em;
+}
+.products__buisness__features__right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -1em;
+}
+.products__buisness__features__right__entry {
+  width: 48%;
+  margin: 1%;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 2em;
+}
+.products__buisness__features__right__entry__header {
+  display: flex;
+  align-items: center;
+  color: #3cb149;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+.products__buisness__features__right__entry__header svg {
+  margin-right: 0.5em;
+  width: 40px;
+  height: 40px;
+}
+.products__buisness__features__right__entry__info {
+  font-size: 14px;
+  width: 100%;
+  max-width: 300px;
+}
+.products__buisness__packages {
+  width: 100%;
+  max-width: 1200px;
+  margin: 3em auto;
+  padding: 0em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5em;
+}
+.products__buisness__packages__entry {
+  width: 31%;
+  margin: 1%;
+  padding: 2em;
+  background-color: #efefef;
+  border-radius: 10px;
+}
+.products__buisness__packages__entry__heading {
+  font-size: 18px;
+  position: relative;
+  color: #545454;
+  font-weight: bold;
+  margin-bottom: 1em;
+  width: fit-content;
+}
+.products__buisness__packages__entry__heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0em;
+  width: 80%;
+  height: 1px;
+  background-color: #545454;
+}
+.products__buisness__packages__entry__info {
+  height: 400px;
+  font-size: 13px;
+}
+.products__buisness__packages__entry__price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3cb149;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.products__buisness__packages__entry__link {
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: center;
+}
+.products__buisness__packages__entry__link svg {
+  margin-bottom: -0.1em;
+}
+.products__buisness__packages__entry:nth-child(2) {
+  background-color: #fad96d;
+}
+.products__buisness__packages__entry:nth-child(2) * {
+  color: black !important;
+}
+.products__buisness__packages__entry:nth-child(2) *::after {
+  color: black !important;
+  background-color: black;
+}
+.products__buisness__packages__entry:nth-child(3) {
+  background-color: #3cb149;
+}
+.products__buisness__packages__entry:nth-child(3) * {
+  color: white !important;
+}
+.products__buisness__packages__entry:nth-child(3) *::after {
+  color: white !important;
+  background-color: white;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -927,6 +1062,19 @@ a:hover {
   .products__jumbotron__content__entry {
     width: 48%;
   }
+  .products__buisness__features {
+    flex-direction: column;
+  }
+  .products__buisness__features__left {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .products__buisness__features__right {
+    width: 100%;
+  }
+  .products__buisness__packages__entry {
+    width: 100%;
+  }
 }
 @media (max-width: 800px) {
   .home__solutions__content__entry {
@@ -980,6 +1128,12 @@ a:hover {
     width: 48%;
   }
   .products__jumbotron__content__entry {
+    width: 100%;
+  }
+  .products__buisness__features__right {
+    margin: 0em;
+  }
+  .products__buisness__features__right__entry {
     width: 100%;
   }
 }

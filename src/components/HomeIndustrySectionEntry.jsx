@@ -14,7 +14,7 @@ export function HomeIndustrySectionEntry({ img, alt, title, content }) {
         </div>
         <div className="home__industry__content__entry__content__info">
           {content.map((entry) => (
-            <span>{entry}</span>
+            <span key={JSON.stringify(entry)}>{entry}</span>
           ))}
         </div>
       </div>

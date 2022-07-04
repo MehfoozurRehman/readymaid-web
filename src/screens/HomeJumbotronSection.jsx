@@ -1,7 +1,7 @@
 import React from "react";
 import { appstore, googleplay, homejumbotron } from "../assets";
 
-export function HomeJumbotronSection({}) {
+export function HomeJumbotronSection() {
   return (
     <div className="home__jumbotron">
       <img

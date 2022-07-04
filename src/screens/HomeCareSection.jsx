@@ -2,7 +2,7 @@ import React from "react";
 import { becomeresource, getresource, readymaidforbuisness } from "../assets";
 import { HomeCareSectionEntry } from "../components/HomeCareSectionEntry";
 
-export function HomeCareSection({}) {
+export function HomeCareSection() {
   return (
     <div className="home__care">
       <div className="home__care__header">

@@ -2,7 +2,7 @@ import React from "react";
 import { aboutjumbotron } from "../assets";
 import { Link } from "react-router-dom";
 
-export function AboutJumbotronSection({}) {
+export function AboutJumbotronSection() {
   return (
     <div className="about__jumbotron">
       <img

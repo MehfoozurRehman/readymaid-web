@@ -6,7 +6,7 @@ import {
 } from "../assets";
 import { HomeIndustrySectionEntry } from "../components/HomeIndustrySectionEntry";
 
-export function HomeIndustrySection({}) {
+export function HomeIndustrySection() {
   return (
     <div className="home__industry">
       <div className="home__industry__heading">Creating an industry</div>

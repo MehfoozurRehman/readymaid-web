@@ -1,7 +1,7 @@
 import React from "react";
 import { homeSolutionsData } from "../constants/homeSolutionsData";
 
-export function HomeSolutionsSection({}) {
+export function HomeSolutionsSection() {
   return (
     <div className="home__solutions">
       <div className="home__solutions__heading">

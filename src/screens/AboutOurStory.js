@@ -1,7 +1,7 @@
 import React from "react";
 import { ourstory } from "../assets";
 
-export function AboutOurStory({}) {
+export function AboutOurStory() {
   return (
     <div className="about__concepts">
       <img src={ourstory} alt="ourstory" className="about__concepts__img" />

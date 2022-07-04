@@ -1,7 +1,7 @@
 import React from "react";
 import { readymaidconcepts } from "../assets";
 
-export function AboutConceptsSection({}) {
+export function AboutConceptsSection() {
   const readymaidConceptsData = [
     "It is not about creating a marketplace or service providing platform but   creating an industry that doesn’t exist at all.",
     "It is about empowering the most neglected segment of the society.",

@@ -1,7 +1,7 @@
 import React from "react";
 import { ourmission } from "../assets";
 
-export function AboutOurMissionSection({}) {
+export function AboutOurMissionSection() {
   return (
     <div
       className="home__payments"

@@ -2,7 +2,10 @@ import React from "react";
 import { productsJumbotronData } from "../constants/productsJumbotronData";
 import { ProductsJumbotronSectionEntry } from "./ProductsJumbotronSectionEntry";
 
-export function ProductsJumbotronSection({}) {
+export function ProductsJumbotronSection({
+  selectedProduct,
+  setSelectedProduct,
+}) {
   return (
     <div className="products__jumbotron">
       <div className="products__jumbotron__header">
@@ -17,6 +20,9 @@ export function ProductsJumbotronSection({}) {
             icon={product.icon}
             title={product.title}
             info={product.info}
+            selectedProduct={selectedProduct}
+            setSelectedProduct={setSelectedProduct}
+            to={product.to}
           />
         ))}
       </div>
