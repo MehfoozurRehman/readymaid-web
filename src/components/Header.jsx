@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { X, Menu } from "react-feather";
 import { NavLink } from "./NavLink";
 import { logo } from "../assets";
 
 export default function Header() {
+  const navigate = useNavigate();
   const [isHeaderOpen, setIsHeaderOpen] = useState(false);
   const [isScrolling, setIsScrolling] = useState(false);
 
@@ -114,10 +115,20 @@ export default function Header() {
             </OutsideClickHandler>
           ) : null}
           <div className="header__content__nav__buttons">
-            <button className="header__content__nav__buttons__button header__content__nav__buttons__button__primary">
+            <button
+              onClick={() => {
+                navigate("/login");
+              }}
+              className="header__content__nav__buttons__button header__content__nav__buttons__button__primary"
+            >
               Login
             </button>
-            <button className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary">
+            <button
+              onClick={() => {
+                navigate("/signup");
+              }}
+              className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
+            >
               Sign Up
             </button>
             <button
