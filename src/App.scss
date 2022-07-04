@@ -991,6 +991,17 @@ a:hover {
   color: white !important;
   background-color: white;
 }
+.benifits__safty {
+  width: 100%;
+  background: url("./assets/aboutjumbotron.png"), no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.benifits__safty__content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0em auto;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
