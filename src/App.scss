@@ -1174,7 +1174,126 @@ a:hover {
 .readymaid_app_card_left_web_para {
   width: 85%;
 }
-
+.products__become__resource {
+  padding: 8em 0em;
+  background: url("./assets/becomeresourcebg.png"), no-repeat;
+  background-size: cover;
+}
+.products__become__resource__form {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.678);
+  padding: 3em;
+  border-radius: 20px;
+  margin: 0em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products__become__resource__form__heading {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.products__become__resource__form__heading span {
+  position: relative;
+  font-weight: bold;
+  width: fit-content;
+  margin-bottom: 1em;
+}
+.products__become__resource__form__heading span::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 3px;
+  width: 50%;
+  background-color: #3cb14a;
+}
+.products__become__resource__form__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.products__become__resource__form__content__input {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+  width: 49%;
+  margin-bottom: 1em;
+  border: 1px solid white;
+}
+.products__become__resource__form__content__input svg {
+  margin: 0em 1em;
+  margin-left: 1.5em;
+}
+.products__become__resource__form__content__input__field {
+  flex: 1;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.products__become__resource__form__content__input:hover,
+.products__become__resource__form__content__input:focus-within {
+  transition: 300ms ease-in-out;
+  border-color: #3cb14a;
+}
+.products__become__resource__form__content__upload {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+  width: 49%;
+  margin-bottom: 1em;
+  position: relative;
+}
+.products__become__resource__form__content__upload__input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.products__become__resource__form__content__upload__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products__become__resource__form__content__upload__content svg {
+  margin-right: 1em;
+}
+.products__become__resource__form__text {
+  margin: 2em 0em;
+}
+.products__become__resource__form__text a {
+  color: black;
+}
+.products__become__resource__form__text a:hover {
+  transition: 300ms ease-in-out;
+  color: #3cb14a;
+}
+.products__become__resource__form__button {
+  padding: 0.9em 2.5em;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+}
+.products__become__resource__form__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb14a;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -1353,6 +1472,12 @@ a:hover {
     width: 90%;
   }
   .readymaid_app_card_right_card_linea {
+    width: 100%;
+  }
+  .products__become__resource__form__content__input {
+    width: 100%;
+  }
+  .products__become__resource__form__content__upload {
     width: 100%;
   }
 }

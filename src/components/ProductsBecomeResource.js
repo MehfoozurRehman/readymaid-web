@@ -36,6 +36,28 @@ export function ProductsBecomeResource() {
             svg={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                width="14.6"
+                height="13.92"
+                viewBox="0 0 14.6 13.92"
+              >
+                <path
+                  id="Icon_material-work"
+                  data-name="Icon material-work"
+                  d="M15.24,5.72H12.52V4.36A1.355,1.355,0,0,0,11.16,3H8.44A1.355,1.355,0,0,0,7.08,4.36V5.72H4.36A1.35,1.35,0,0,0,3.007,7.08L3,14.56a1.355,1.355,0,0,0,1.36,1.36H15.24a1.355,1.355,0,0,0,1.36-1.36V7.08A1.355,1.355,0,0,0,15.24,5.72Z"
+                  transform="translate(-2.5 -2.5)"
+                  fill="none"
+                  stroke="#000"
+                  stroke-width="1"
+                />
+              </svg>
+            }
+            type="text"
+            placeholder="Profession"
+          />
+          <ProductsBecomeResourceInput
+            svg={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
                 width="18.18"
                 height="14.744"
                 viewBox="0 0 18.18 14.744"
@@ -60,6 +82,25 @@ export function ProductsBecomeResource() {
             svg={
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                width="12.97"
+                height="12.97"
+                viewBox="0 0 12.97 12.97"
+              >
+                <path
+                  id="Icon_ionic-ios-add"
+                  data-name="Icon ionic-ios-add"
+                  d="M21.127,14.642h-4.87V9.772a.807.807,0,0,0-1.615,0v4.87H9.772a.807.807,0,0,0,0,1.615h4.87v4.87a.807.807,0,1,0,1.615,0v-4.87h4.87a.807.807,0,1,0,0-1.615Z"
+                  transform="translate(-8.965 -8.965)"
+                />
+              </svg>
+            }
+            type="text"
+            placeholder="Years of Experience"
+          />
+          <ProductsBecomeResourceInput
+            svg={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
                 width="18.125"
                 height="18.124"
                 viewBox="0 0 18.125 18.124"
@@ -77,6 +118,47 @@ export function ProductsBecomeResource() {
             }
             type="tel"
             placeholder="Number"
+          />{" "}
+          <ProductsBecomeResourceInput
+            svg={
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14.861"
+                height="16.401"
+                viewBox="0 0 14.861 16.401"
+              >
+                <g
+                  id="Icon_feather-lock"
+                  data-name="Icon feather-lock"
+                  transform="translate(0.5 0.5)"
+                >
+                  <path
+                    id="Path_9444"
+                    data-name="Path 9444"
+                    d="M6.04,16.5h10.78a1.54,1.54,0,0,1,1.54,1.54v5.39a1.54,1.54,0,0,1-1.54,1.54H6.04A1.54,1.54,0,0,1,4.5,23.43V18.04A1.54,1.54,0,0,1,6.04,16.5Z"
+                    transform="translate(-4.5 -9.57)"
+                    fill="none"
+                    stroke="#0d0d0d"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_9445"
+                    data-name="Path 9445"
+                    d="M10.5,9.93V6.85a3.85,3.85,0,0,1,7.7,0V9.93"
+                    transform="translate(-7.42 -3)"
+                    fill="none"
+                    stroke="#0d0d0d"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </g>
+              </svg>
+            }
+            type="text"
+            placeholder="Password"
           />
           <ProductsBecomeResourceInput
             svg={
@@ -118,110 +200,6 @@ export function ProductsBecomeResource() {
             }
             type="text"
             placeholder="CNIC"
-          />
-          <div className="products__become__resource__form__content__upload">
-            <input
-              type="file"
-              className="products__become__resource__form__content__upload__input"
-            />
-            <div className="products__become__resource__form__content__upload__content">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12.97"
-                height="12.97"
-                viewBox="0 0 12.97 12.97"
-              >
-                <path
-                  id="Icon_ionic-ios-add"
-                  data-name="Icon ionic-ios-add"
-                  d="M21.127,14.642h-4.87V9.772a.807.807,0,0,0-1.615,0v4.87H9.772a.807.807,0,0,0,0,1.615h4.87v4.87a.807.807,0,1,0,1.615,0v-4.87h4.87a.807.807,0,1,0,0-1.615Z"
-                  transform="translate(-8.965 -8.965)"
-                />
-              </svg>
-              Experience Certificate
-            </div>
-          </div>
-          <ProductsBecomeResourceInput
-            svg={
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14.6"
-                height="13.92"
-                viewBox="0 0 14.6 13.92"
-              >
-                <path
-                  id="Icon_material-work"
-                  data-name="Icon material-work"
-                  d="M15.24,5.72H12.52V4.36A1.355,1.355,0,0,0,11.16,3H8.44A1.355,1.355,0,0,0,7.08,4.36V5.72H4.36A1.35,1.35,0,0,0,3.007,7.08L3,14.56a1.355,1.355,0,0,0,1.36,1.36H15.24a1.355,1.355,0,0,0,1.36-1.36V7.08A1.355,1.355,0,0,0,15.24,5.72Z"
-                  transform="translate(-2.5 -2.5)"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="1"
-                />
-              </svg>
-            }
-            type="text"
-            placeholder="Profession"
-          />
-          <ProductsBecomeResourceInput
-            svg={
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12.97"
-                height="12.97"
-                viewBox="0 0 12.97 12.97"
-              >
-                <path
-                  id="Icon_ionic-ios-add"
-                  data-name="Icon ionic-ios-add"
-                  d="M21.127,14.642h-4.87V9.772a.807.807,0,0,0-1.615,0v4.87H9.772a.807.807,0,0,0,0,1.615h4.87v4.87a.807.807,0,1,0,1.615,0v-4.87h4.87a.807.807,0,1,0,0-1.615Z"
-                  transform="translate(-8.965 -8.965)"
-                />
-              </svg>
-            }
-            type="text"
-            placeholder="Years of Experience"
-          />
-          <ProductsBecomeResourceInput
-            svg={
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14.861"
-                height="16.401"
-                viewBox="0 0 14.861 16.401"
-              >
-                <g
-                  id="Icon_feather-lock"
-                  data-name="Icon feather-lock"
-                  transform="translate(0.5 0.5)"
-                >
-                  <path
-                    id="Path_9444"
-                    data-name="Path 9444"
-                    d="M6.04,16.5h10.78a1.54,1.54,0,0,1,1.54,1.54v5.39a1.54,1.54,0,0,1-1.54,1.54H6.04A1.54,1.54,0,0,1,4.5,23.43V18.04A1.54,1.54,0,0,1,6.04,16.5Z"
-                    transform="translate(-4.5 -9.57)"
-                    fill="none"
-                    stroke="#0d0d0d"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                  />
-                  <path
-                    id="Path_9445"
-                    data-name="Path 9445"
-                    d="M10.5,9.93V6.85a3.85,3.85,0,0,1,7.7,0V9.93"
-                    transform="translate(-7.42 -3)"
-                    fill="none"
-                    stroke="#0d0d0d"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                  />
-                </g>
-              </svg>
-            }
-            type="text"
-            placeholder="Password"
           />
           <ProductsBecomeResourceInput
             svg={
@@ -283,19 +261,41 @@ export function ProductsBecomeResource() {
                   transform="translate(-8.965 -8.965)"
                 />
               </svg>
+              Experience Certificate
+            </div>
+          </div>
+          <div className="products__become__resource__form__content__upload">
+            <input
+              type="file"
+              className="products__become__resource__form__content__upload__input"
+            />
+            <div className="products__become__resource__form__content__upload__content">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12.97"
+                height="12.97"
+                viewBox="0 0 12.97 12.97"
+              >
+                <path
+                  id="Icon_ionic-ios-add"
+                  data-name="Icon ionic-ios-add"
+                  d="M21.127,14.642h-4.87V9.772a.807.807,0,0,0-1.615,0v4.87H9.772a.807.807,0,0,0,0,1.615h4.87v4.87a.807.807,0,1,0,1.615,0v-4.87h4.87a.807.807,0,1,0,0-1.615Z"
+                  transform="translate(-8.965 -8.965)"
+                />
+              </svg>
               Police Certificate
             </div>
           </div>
-          <div className="products__become__resource__form__text">
-            <input type="checkbox" />I agree to{" "}
-            <span>
-              <a href="#">Terms and conditions</a> & <a href="#">Privacy</a>
-            </span>
-          </div>
-          <button className="products__become__resource__form__button">
-            Sign Up
-          </button>
         </div>
+        <div className="products__become__resource__form__text">
+          <input type="checkbox" />I agree to{" "}
+          <span>
+            <a href="#">Terms and conditions</a> & <a href="#">Privacy</a>
+          </span>
+        </div>
+        <button className="products__become__resource__form__button">
+          Sign Up
+        </button>
       </div>
     </div>
   );
