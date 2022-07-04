@@ -992,53 +992,38 @@ a:hover {
   background-color: white;
 }
 
-
-
 .benifits__safty {
-  
   background: url("./assets/gray-abstract.png"), no-repeat;
   background-size: cover;
-  
+  padding-bottom: 4em;
 }
 .benifits__safty__content {
   width: 100%;
   max-width: 1440px;
   margin: 0em auto;
 }
-.benifits__safty__content_heading{
+.benifits__safty__content_heading {
   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 3em 0em;
-   font-size: 30px;
-   font-weight: bold;
-   position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0em;
+  padding-bottom: 2em;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
 }
-// .benifits__safty__content_heading::after{
-//   content: " ";
-//   position: absolute;
-//   width: 166px;
-//   // bottom: 0;
-//   height: 4px;
-//   bottom: 2.8em;
-//   background-color: #3cb149;
-//   right: 26%;
-
-// }
-.benifits__safty__content__entries{
+.benifits__safty__content__entries {
   width: 100%;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-
-
 }
-.benifits__safty__content__entries_heading22{
-   margin-top: -15px;
-   padding: 6px 0px;
-   font-size: 12px;
+.benifits__safty__content__entries_heading22 {
+  margin-top: -15px;
+  padding: 6px 0px;
+  font-size: 12px;
 }
-.benifits__safty__content__entries_heading4::before{
+.benifits__safty__content__entries_heading4::before {
   content: " ";
   position: absolute;
   width: 8px;
@@ -1050,7 +1035,7 @@ a:hover {
   left: -15px;
   padding-right: 2px;
 }
-.benifits__safty__content__entries_heading45::before{
+.benifits__safty__content__entries_heading45::before {
   content: " ";
   position: absolute;
   width: 8px;
@@ -1062,27 +1047,24 @@ a:hover {
   left: -14px;
   padding-right: 2px;
 }
-.benifits__safty__content__entries_heading45{
+.benifits__safty__content__entries_heading45 {
   position: relative;
 }
 
-.benifits__safty__content__entries_heading4{
+.benifits__safty__content__entries_heading4 {
   display: flex;
   left: -40px;
-
 }
 
-
-.benifits__safty__content__entries_heading4{
+.benifits__safty__content__entries_heading4 {
   position: relative;
 }
 
-
-.benifits__safty__content__entries__entry{
-  background-color: #EDEDED;
+.benifits__safty__content__entries__entry {
+  background-color: #ededed;
   width: 40%;
   position: relative;
-   padding: 2em;
+  padding: 2em;
   margin: 2em;
   border-radius: 1em;
   display: flex;
@@ -1091,45 +1073,36 @@ a:hover {
   text-align: center;
   position: relative;
   flex-direction: column;
-
-
 }
-.benifits__safty__content__entries_heading{
-margin-top: 2em;
-margin-bottom: 1em;
-font-size: 20px;
-font-weight: bold;
-
+.benifits__safty__content__entries_heading {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 20px;
+  font-weight: bold;
 }
-.benifits__safty__content__entries_para{
+.benifits__safty__content__entries_para {
   width: 95%;
   text-align: center;
-
-  
 }
 .benifits__safty__content__entries__entry_svg {
   top: -35px;
   margin: 0 auto;
-   background-color: white;
-   padding: 1.5em;
-   border-radius: 50px;
-   position: absolute;
-   left: 40%;
-   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-   
-
-
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 50px;
+  position: absolute;
+  left: 40%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.Readymaid__Smart__Solution{
+.Readymaid__Smart__Solution {
   width: 100%;
   height: 100%;
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
-
 }
-.Readymaid__Smart__Solution_overlay{
+.Readymaid__Smart__Solution_overlay {
   position: absolute;
   top: 0;
   display: flex;
@@ -1140,41 +1113,36 @@ font-weight: bold;
   height: 100%;
   width: 100%;
 }
-.Readymaid__Smart__Solution_overlay__heading{
+.Readymaid__Smart__Solution_overlay__heading {
   font-size: 26px;
   padding: 5px;
 }
-.Readymaid__Smart__Solution_pic{
+.Readymaid__Smart__Solution_pic {
   width: 100%;
   height: 100%;
 }
 
-.readymaid_app_card{
+.readymaid_app_card {
   width: 100%;
   margin: 0 auto;
   max-width: 1440px;
   display: flex;
 }
-.readymaid_app_card_left{
+.readymaid_app_card_left {
   width: 40%;
   display: flex;
   justify-content: center;
   padding: 20px;
 }
-.readymaid_app_card_right{
+.readymaid_app_card_right {
   width: 60%;
-  
 }
-.readymaid_app_card_left_para{
-  width: 75%
-  
-
-
+.readymaid_app_card_left_para {
+  width: 75%;
 }
 
-
-.readymaid_app_card_right_card{
-  background-color: #EFEFEF ;
+.readymaid_app_card_right_card {
+  background-color: #efefef;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   z-index: 999;
@@ -1182,35 +1150,30 @@ font-weight: bold;
   top: -140px;
   width: 550px;
   padding: 3em;
-
 }
-.readymaid_app_card_right_card_heading{
+.readymaid_app_card_right_card_heading {
   color: #3cb149;
   font-size: 23px;
 }
-.readymaid_app_card_right_card_paragraph{
+.readymaid_app_card_right_card_paragraph {
   width: 90%;
   padding: 1em 0em;
-
 }
-.readymaid_app_card_right_card_linea span{
+.readymaid_app_card_right_card_linea span {
   color: #3cb149;
 }
-.readymaid_app_card_right_card_linea{
-   padding: 2px 0px;
+.readymaid_app_card_right_card_linea {
+  padding: 2px 0px;
   width: 85%;
 }
-.readymaid_app_card_right_card_website{
+.readymaid_app_card_right_card_website {
   color: #3cb149;
-font-size: 23px;
-padding:  1em 0em;
-
+  font-size: 23px;
+  padding: 1em 0em;
 }
-.readymaid_app_card_left_web_para{
+.readymaid_app_card_left_web_para {
   width: 85%;
 }
-
-
 
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
@@ -1250,30 +1213,25 @@ padding:  1em 0em;
     padding-bottom: 0em;
     width: 100%;
   }
-  .readymaid_app_card{
+  .readymaid_app_card {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
   }
-  .readymaid_app_card_right{
-    
+  .readymaid_app_card_right {
     width: 70%;
-  
+
     max-width: 1440px;
     margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .readymaid_app_card_left{
+  .readymaid_app_card_left {
     width: 100%;
   }
 }
-
-
 
 @media (max-width: 900px) {
   .header__content__nav__buttons__button__menu {
@@ -1326,8 +1284,8 @@ padding:  1em 0em;
     width: 31%;
   }
 }
-@media(max-width:768px){
-  .benifits__safty__content__entries__entry{
+@media (max-width: 768px) {
+  .benifits__safty__content__entries__entry {
     width: 100%;
   }
 }
@@ -1387,17 +1345,16 @@ padding:  1em 0em;
     width: 100%;
   }
 
-.readymaid_app_card_right_card{
-  padding: 2em;
-  
-}
-.readymaid_app_card_right_card_paragraph{
-  padding: 1em 0em;
-  width: 90%;
-}
-.readymaid_app_card_right_card_linea{
-  width: 100%;
-}
+  .readymaid_app_card_right_card {
+    padding: 2em;
+  }
+  .readymaid_app_card_right_card_paragraph {
+    padding: 1em 0em;
+    width: 90%;
+  }
+  .readymaid_app_card_right_card_linea {
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
   .home__jumbotron__overlay__content__buttons {
@@ -1717,7 +1674,7 @@ padding:  1em 0em;
   .login__jumbotron__end__content__heading {
     max-width: 1440px;
   }
-  .end__button__two{
+  .end__button__two {
     margin-top: 1em;
   }
 }

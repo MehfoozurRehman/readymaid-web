@@ -1,12 +1,12 @@
 import React from "react";
-import { HomeCareSection } from "./HomeCareSection";
-import { HomeJumbotronSection } from "./HomeJumbotronSection";
-import { HomePaymentsSection } from "./HomePaymentsSection";
-import { HomeSaleSection } from "./HomeSaleSection";
-import { HomeSolutionsSection } from "./HomeSolutionsSection";
-import { HomeIndustrySection } from "./HomeIndustrySection";
-import { HomeJoinTeamSection } from "./HomeJoinTeamSection";
-import { HomeFaqSection } from "./HomeFaqSection";
+import { HomeCareSection } from "../components/HomeCareSection";
+import { HomeJumbotronSection } from "../components/HomeJumbotronSection";
+import { HomePaymentsSection } from "../components/HomePaymentsSection";
+import { HomeSaleSection } from "../components/HomeSaleSection";
+import { HomeSolutionsSection } from "../components/HomeSolutionsSection";
+import { HomeIndustrySection } from "../components/HomeIndustrySection";
+import { HomeJoinTeamSection } from "../components/HomeJoinTeamSection";
+import { HomeFaqSection } from "../components/HomeFaqSection";
 
 export default function Home() {
   return (

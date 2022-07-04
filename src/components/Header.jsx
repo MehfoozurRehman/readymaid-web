@@ -101,16 +101,6 @@ export default function Header() {
                 >
                   About Us
                 </NavLink>
-                <NavLink
-                  to="/contactus"
-                  onClick={() => {
-                    if (window.innerWidth < 900) {
-                      setIsHeaderOpen(false);
-                    }
-                  }}
-                >
-                  Contact Us
-                </NavLink>
               </div>
             </OutsideClickHandler>
           ) : null}
