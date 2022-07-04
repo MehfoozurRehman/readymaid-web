@@ -28,7 +28,7 @@ export function BenifitsSafty() {
                     transform="translate(8524.16 -10828.409)"
                     fill="#3cb149"
                     stroke="#fff"
-                    stroke-width="0.5"
+                    strokeWidth="0.5"
                   />
                   <path
                     id="Path_10052"
@@ -69,7 +69,7 @@ export function BenifitsSafty() {
                     transform="translate(8524.16 -10828.409)"
                     fill="#3cb149"
                     stroke="#fff"
-                    stroke-width="0.5"
+                    strokeWidth="0.5"
                   />
                   <path
                     id="Path_10052"
@@ -110,7 +110,7 @@ export function BenifitsSafty() {
                     transform="translate(8524.16 -10828.409)"
                     fill="#3cb149"
                     stroke="#fff"
-                    stroke-width="0.5"
+                    strokeWidth="0.5"
                   />
                   <path
                     id="Path_10052"
@@ -154,7 +154,7 @@ export function BenifitsSafty() {
                     transform="translate(8524.16 -10828.409)"
                     fill="#3cb149"
                     stroke="#fff"
-                    stroke-width="0.5"
+                    strokeWidth="0.5"
                   />
                   <path
                     id="Path_10052"
@@ -198,7 +198,7 @@ export function BenifitsSafty() {
                     transform="translate(8524.16 -10828.409)"
                     fill="#3cb149"
                     stroke="#fff"
-                    stroke-width="0.5"
+                    strokeWidth="0.5"
                   />
                   <path
                     id="Path_10052"

@@ -25,7 +25,7 @@ export function ProductsBecomeResource() {
                   transform="translate(-3.999 -4)"
                   fill="none"
                   stroke="#0d0d0d"
-                  stroke-width="1"
+                  strokeWidth="1"
                 />
               </svg>
             }
@@ -47,7 +47,7 @@ export function ProductsBecomeResource() {
                   transform="translate(-2.5 -2.5)"
                   fill="none"
                   stroke="#000"
-                  stroke-width="1"
+                  strokeWidth="1"
                 />
               </svg>
             }
@@ -69,9 +69,9 @@ export function ProductsBecomeResource() {
                   transform="translate(-2.5 -5.5)"
                   fill="none"
                   stroke="#0d0d0d"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1"
                 />
               </svg>
             }
@@ -112,7 +112,7 @@ export function ProductsBecomeResource() {
                   transform="translate(-4.014 -4.033)"
                   fill="none"
                   stroke="#0d0d0d"
-                  stroke-width="1"
+                  strokeWidth="1"
                 />
               </svg>
             }
@@ -139,9 +139,9 @@ export function ProductsBecomeResource() {
                     transform="translate(-4.5 -9.57)"
                     fill="none"
                     stroke="#0d0d0d"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                   <path
                     id="Path_9445"
@@ -150,9 +150,9 @@ export function ProductsBecomeResource() {
                     transform="translate(-7.42 -3)"
                     fill="none"
                     stroke="#0d0d0d"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                 </g>
               </svg>
@@ -180,9 +180,9 @@ export function ProductsBecomeResource() {
                     transform="translate(-6 -12.167)"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                   <path
                     id="Path_9707"
@@ -191,9 +191,9 @@ export function ProductsBecomeResource() {
                     transform="translate(-8.556 -4.5)"
                     fill="none"
                     stroke="#000"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                 </g>
               </svg>
@@ -221,9 +221,9 @@ export function ProductsBecomeResource() {
                     transform="translate(-4.5 -9.57)"
                     fill="none"
                     stroke="#0d0d0d"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                   <path
                     id="Path_9445"
@@ -232,9 +232,9 @@ export function ProductsBecomeResource() {
                     transform="translate(-7.42 -3)"
                     fill="none"
                     stroke="#0d0d0d"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                 </g>
               </svg>

@@ -84,7 +84,7 @@ export default function Footer() {
                     d="M22.452,27.053h0A9.826,9.826,0,0,1,17.925,25.5a30.268,30.268,0,0,1-7.071-5.3l.627-.65-.638.639a30.141,30.141,0,0,1-5.3-7.072C3.584,9.636,3.865,8.041,4.329,7.04A4.886,4.886,0,0,1,6.235,4.993,9.143,9.143,0,0,1,7.722,4.2l.031-.012.095-.035A1.881,1.881,0,0,1,8.544,4a2.311,2.311,0,0,1,1.6.876,18.417,18.417,0,0,1,2.672,3.979,2.661,2.661,0,0,1-.127,3.232c-.072.1-.145.2-.216.293-.381.509-.431.618-.385.835a10.718,10.718,0,0,0,2.493,3.247,10.491,10.491,0,0,0,3.249,2.493.594.594,0,0,0,.126.016c.168,0,.372-.147.718-.407.09-.068.184-.138.282-.209a2.66,2.66,0,0,1,1.591-.608,3.831,3.831,0,0,1,1.646.482,18.7,18.7,0,0,1,3.975,2.67c.866.861,1.05,1.439.724,2.289-.012.031-.024.063-.036.1l-.012.031a9.136,9.136,0,0,1-.789,1.486A4.812,4.812,0,0,1,24,26.713,3.552,3.552,0,0,1,22.452,27.053ZM8.382,5.885A7.409,7.409,0,0,0,7.235,6.5a3.133,3.133,0,0,0-1.27,1.309c-.164.353-.605,1.306,1.149,4.427a28.456,28.456,0,0,0,5.005,6.678l.012.012a28.584,28.584,0,0,0,6.678,5.006,8.376,8.376,0,0,0,3.643,1.319h0a1.74,1.74,0,0,0,.79-.173,3.07,3.07,0,0,0,1.3-1.267,7.416,7.416,0,0,0,.613-1.148c.014-.04.029-.078.043-.114l0-.012a3.232,3.232,0,0,0-.317-.352,17,17,0,0,0-3.48-2.32,2.756,2.756,0,0,0-.867-.3c-.085,0-.209.032-.534.267-.087.063-.171.126-.252.187a2.925,2.925,0,0,1-1.8.771,2.373,2.373,0,0,1-.507-.056c-1.358-.287-3.516-2.354-4.144-2.98s-2.693-2.777-2.984-4.153a2.665,2.665,0,0,1,.706-2.29c.063-.084.128-.172.194-.264.342-.475.385-.535-.033-1.4A16.727,16.727,0,0,0,8.865,6.158a3.263,3.263,0,0,0-.358-.32l-.016.006Z"
                     transform="translate(-3.521 -3.502)"
                     stroke="#e5e5e5"
-                    stroke-width="1"
+                    strokeWidth="1"
                   />
                 </svg>
               }
@@ -116,9 +116,9 @@ export default function Footer() {
                     transform="translate(-1.61 -1.5)"
                     fill="none"
                     stroke="#3cb149"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1"
                   />
                 </svg>
               }
@@ -139,9 +139,9 @@ export default function Footer() {
                       d="M5.288,4h26.3a3.3,3.3,0,0,1,3.288,3.288V27.014A3.3,3.3,0,0,1,31.589,30.3H5.288A3.3,3.3,0,0,1,2,27.014V7.288A3.3,3.3,0,0,1,5.288,4Z"
                       fill="none"
                       stroke="#3cb149"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1"
                     />
                     <path
                       id="Path_11227"
@@ -150,9 +150,9 @@ export default function Footer() {
                       transform="translate(0 1.288)"
                       fill="none"
                       stroke="#3cb149"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1"
                     />
                   </g>
                 </svg>
@@ -174,7 +174,7 @@ export default function Footer() {
                     transform="translate(-1.109 0.5)"
                     fill="none"
                     stroke="#3cb149"
-                    stroke-width="1"
+                    strokeWidth="1"
                   />
                 </svg>
               }
@@ -195,7 +195,7 @@ export default function Footer() {
                     transform="translate(-4 -4)"
                     fill="none"
                     stroke="#3cb149"
-                    stroke-width="1"
+                    strokeWidth="1"
                   />
                 </svg>
               }
@@ -216,7 +216,7 @@ export default function Footer() {
                     transform="translate(0.271 -2.881)"
                     fill="none"
                     stroke="#3cb149"
-                    stroke-width="1"
+                    strokeWidth="1"
                   />
                 </svg>
               }
@@ -237,7 +237,7 @@ export default function Footer() {
                     transform="translate(0.6 -1.643)"
                     fill="none"
                     stroke="#3cb149"
-                    stroke-width="1"
+                    strokeWidth="1"
                   />
                 </svg>
               }

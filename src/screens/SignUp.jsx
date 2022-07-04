@@ -81,7 +81,7 @@ export default function SignUp() {
                   </g>
                 </svg>
                 <svg
-                  class="svg_two"
+                  className="svg_two"
                   xmlns="http://www.w3.org/2000/svg"
                   width="22.48"
                   height="22.48"
@@ -160,16 +160,16 @@ export default function SignUp() {
               services of skilled labors to both consumers & corporations alike.
               this include provisioning of
             </div>
-            <div class="signup__jumbotron__end__content__input">
-              <div class="signup__jumbotron__end__content__input__button">
+            <div className="signup__jumbotron__end__content__input">
+              <div className="signup__jumbotron__end__content__input__button">
                 <input
-                  class="end_input"
+                  className="end_input"
                   type="text"
                   placeholder="Some thing here......"
                 />
-                <button class="end_button">Subscribe</button>
+                <button className="end_button">Subscribe</button>
               </div>
-              <button class="end__button__two">Download App</button>
+              <button className="end__button__two">Download App</button>
             </div>
           </div>
         </div>
