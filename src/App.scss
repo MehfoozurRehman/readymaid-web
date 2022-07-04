@@ -1461,10 +1461,13 @@ a:hover {
     min-width: 50%;
   }
   .login__jumbotron__end__content__input__button {
-    width: 50%;
+    width: fit-content;
   }
   .login__jumbotron__end__content__heading {
     max-width: 1440px;
+  }
+  .end__button__two{
+    margin-top: 1em;
   }
 }
 @media (max-width: 1200px) {
