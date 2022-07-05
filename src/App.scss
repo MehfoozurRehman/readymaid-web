@@ -1478,6 +1478,89 @@ a:hover {
   width: 100%;
   height: 100%;
 }
+.benifits__resources__overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0em 2em;
+  transform: translate(-50%, -50%);
+}
+
+.benifits__resources__overlay__content {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin: 1em 1em;
+}
+.benifits__resources__overlay__content__entry {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.benifits__resources__overlay__content__entry:hover {
+  background-color: #3cb149;
+  transition: all 0.3s ease-in-out;
+}
+.benifits__resources__overlay__content__entry__icon {
+  color: #3cb149;
+  width: 40px;
+  height: 40px;
+}
+.benifits__resources__overlay__content__entry:hover
+  .benifits__resources__overlay__content__entry__icon {
+  color: white;
+}
+.benifits__resources__overlay__content__entry:hover
+  .benifits__resources__overlay__content__entry__heading {
+  color: #fff;
+}
+.benifits__resources__overlay__content__entry:hover
+  .benifits__resources__overlay__content__entry__info {
+  color: #fff;
+}
+.benifits__resources__overlay__header {
+  margin-bottom: 4em;
+}
+.benifits__resources__overlay__header__heading {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.benifits__resources__overlay__header__heading::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #fcca25;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.benifits__resources__overlay__header__info {
+  color: #fff;
+}
+.benifits__resources__overlay__content__entry__heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 1em 0em;
+  margin-top: 1.5em;
+}
+
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -1588,6 +1671,9 @@ a:hover {
     margin-right: 0em;
     margin-bottom: 2em;
   }
+  .benefits__features__entry {
+    width: 50%;
+  }
 }
 @media (max-width: 800px) {
   .home__solutions__content__entry {
@@ -1598,18 +1684,17 @@ a:hover {
   .benifits__safty__content__entries__entry {
     width: 100%;
   }
-  .readymaid_app_card_right_card_paragraph{
+  .readymaid_app_card_right_card_paragraph {
     width: 100%;
     padding: 8px 0px;
   }
-  .readymaid_app_card_right_card_linea{
+  .readymaid_app_card_right_card_linea {
     width: 100%;
     padding: 1px;
   }
-  .readymaid_app_card_right_card_website{
+  .readymaid_app_card_right_card_website {
     padding: 12px 0px;
   }
-
 }
 @media (max-width: 700px) {
   .home__care__content__entry {
@@ -1641,6 +1726,9 @@ a:hover {
   .products__get__resource__hire__details__content__right__content__entry__left {
     margin-right: 0em;
     margin-bottom: 1em;
+  }
+  .benefits__features__entry {
+    width: 100%;
   }
 }
 @media (max-width: 650px) {
@@ -2312,42 +2400,34 @@ a:hover {
   }
 }
 
-
-
-@media(max-width:665px){
-.Readymaid__Smart__Solution_overlay__para{
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 10px;
-
-
-}
-.readymaid_app_card_right_card_linea{
-  padding: 0px 1em;
-}
-
-
-
-.readymaid_app_card_left_para{
-  width: 100%;
-}
-.Readymaid__Smart__Solution_overlay__heading{
-  font-size: 22px;
-}
-.readymaid_app_card_right_card_linea{
-  padding: 0;
-}
-.readymaid_app_card_right_card{
-  padding: 2.3em;
-}
-}
-@media(max-width:370px){
-  .Readymaid__Smart__Solution_overlay__heading{
-    font-size: 19px;
+@media (max-width: 665px) {
+  .Readymaid__Smart__Solution_overlay__para {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+  }
+  .readymaid_app_card_right_card_linea {
+    padding: 0px 1em;
   }
 
-
+  .readymaid_app_card_left_para {
+    width: 100%;
+  }
+  .Readymaid__Smart__Solution_overlay__heading {
+    font-size: 22px;
+  }
+  .readymaid_app_card_right_card_linea {
+    padding: 0;
+  }
+  .readymaid_app_card_right_card {
+    padding: 2.3em;
+  }
+}
+@media (max-width: 370px) {
+  .Readymaid__Smart__Solution_overlay__heading {
+    font-size: 19px;
+  }
 }
