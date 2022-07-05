@@ -62,7 +62,7 @@ export default function Login() {
                 <span>privacy policy</span>
               </div>
               <div className="login_all_second_container_button">
-                <button className="button">Create an account</button>
+                <button className="buttones">Create an account</button>
               </div>
               <div className="login_all_second_container_button_two">
                 <a className="or" href="#">

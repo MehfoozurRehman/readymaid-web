@@ -1762,7 +1762,7 @@ a:hover {
   font-size: 14px;
   width: 100%;
 }
-.button {
+.buttones {
   width: 150px;
   height: 40px;
   border-radius: 20px;
@@ -1783,6 +1783,9 @@ a:hover {
   display: flex;
   justify-content: center;
   padding-top: 1em;
+}
+.login_all_second_container_svg svg{
+  cursor: pointer;
 }
 .or {
   text-decoration: none;
@@ -1825,6 +1828,7 @@ a:hover {
   border: none;
   background-color: transparent;
   color: white;
+  cursor: pointer;
 }
 .login__jumbotron__buttons {
   display: flex;
@@ -2136,6 +2140,9 @@ a:hover {
   display: flex;
   justify-content: center;
   padding-top: 1.5em;
+}
+.signup_all_second_container_svg svg{
+  cursor: pointer;
 }
 .signup__jumbotron__buttons {
   display: flex;
