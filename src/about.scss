@@ -64,6 +64,12 @@
     margin-top: 4em;
   }
 }
+@media (max-width:600px) {
+  .about__us__our__leader_container__overlay img {
+    width: 90%;
+    
+  }
+}
 .about__us__our__foundation__container {
   height: 70%;
   width: 100%;
