@@ -1469,6 +1469,15 @@ a:hover {
 .products__get__resource__hire__details__content__right__content__entry__right {
   flex: 1;
 }
+.benifits__resources {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+.benifits__resources__img {
+  width: 100%;
+  height: 100%;
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -1796,7 +1805,7 @@ a:hover {
   justify-content: center;
   padding-top: 1em;
 }
-.login_all_second_container_svg svg{
+.login_all_second_container_svg svg {
   cursor: pointer;
 }
 .or {
@@ -2153,7 +2162,7 @@ a:hover {
   justify-content: center;
   padding-top: 1.5em;
 }
-.signup_all_second_container_svg svg{
+.signup_all_second_container_svg svg {
   cursor: pointer;
 }
 .signup__jumbotron__buttons {

@@ -19,3 +19,4 @@ export { default as ourstory } from "./ourstory.png";
 export { default as benifitsjumbotron } from "./benifitsjumbotron.png";
 export { default as becomeresourcebg } from "./becomeresourcebg.png";
 export { default as user } from "./user.png";
+export { default as benifitsresources } from "./benifitsresources.png";
