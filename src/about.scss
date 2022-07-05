@@ -29,8 +29,8 @@
   margin-top: 3em;
 }
 .about__us__our__leader_container__heading__button button {
-  height: 34px;
-  width: 80px;
+  height: 40px;
+  width: 100px;
   border-radius: 50px;
   border: none;
   background-color: #fcca25;
@@ -66,8 +66,14 @@
 }
 @media (max-width:600px) {
   .about__us__our__leader_container__overlay img {
-    width: 90%;
-    
+    width: 100%;
+  }
+  .about__us__our__leader__container__heading__content__heading__para{
+    width: 400px;
+  }
+  .about__us__our__leader_container__heading__button{
+    display: flex;
+    justify-content: center;
   }
 }
 .about__us__our__foundation__container {
