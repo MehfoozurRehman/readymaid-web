@@ -1589,6 +1589,18 @@ a:hover {
   .benifits__safty__content__entries__entry {
     width: 100%;
   }
+  .readymaid_app_card_right_card_paragraph{
+    width: 100%;
+    padding: 8px 0px;
+  }
+  .readymaid_app_card_right_card_linea{
+    width: 100%;
+    padding: 1px;
+  }
+  .readymaid_app_card_right_card_website{
+    padding: 12px 0px;
+  }
+
 }
 @media (max-width: 700px) {
   .home__care__content__entry {
@@ -2289,4 +2301,44 @@ a:hover {
   .sigup__jumbotron__overlay__right {
     margin: 10px;
   }
+}
+
+
+
+@media(max-width:665px){
+.Readymaid__Smart__Solution_overlay__para{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10px;
+
+
+}
+.readymaid_app_card_right_card_linea{
+  padding: 0px 1em;
+}
+
+
+
+.readymaid_app_card_left_para{
+  width: 100%;
+}
+.Readymaid__Smart__Solution_overlay__heading{
+  font-size: 22px;
+}
+.readymaid_app_card_right_card_linea{
+  padding: 0;
+}
+.readymaid_app_card_right_card{
+  padding: 2.3em;
+}
+}
+@media(max-width:370px){
+  .Readymaid__Smart__Solution_overlay__heading{
+    font-size: 19px;
+  }
+
+
 }
