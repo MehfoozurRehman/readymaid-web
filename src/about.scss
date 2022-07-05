@@ -221,7 +221,7 @@
 @media (max-width: 1080px) {
   .Best__services__coustomer__container {
     flex-direction: column;
-    padding-left: 2em;
+    padding-left: 5em;
   }
   .Best__services__coustomer__container__img {
     margin-top: 1.5em;
@@ -233,6 +233,10 @@
 @media (max-width: 1240px) {
   .about__us__our__foundation__container__main__two {
     width: 70%;
+    padding: 3em;
+  }
+  .about__us__our__foundation__container__content{
+   width: 60%;
   }
 }
 @media (max-width: 1176px) {
@@ -250,6 +254,44 @@
     width: fit-content;
   }
   .about__us__our__foundation__container__content {
-    width: 80%;
+    width: 100%;
+  }
+  .about__us__our__foundation__container__main{
+    width: 100%;
+  }
+  .about__us__our__foundation__container__para{
+    margin: 0;
+    width: 90%;
+    margin-top: 1em;
+    font-size: 15px;
+
+  }
+}
+@media (max-width: 920px) {
+  .about__us__our__foundation__container__main {
+    flex-direction: column;
+  }
+  .about__us__our__foundation__container__content{
+    height: 50%;
+    width: 50%;
+    margin-left: 10em;
+   
+  }
+  .about__us__our__foundation__container__content img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-top-right-radius:20px ;
+  }
+  .about__us__our__foundation__container__main{
+    padding: 0;
+    padding-left: 4em;
+    padding-bottom: 4em;
+  }
+  .about__us__our__foundation__container__main__two{
+   margin-left: .1em;
+   margin-right: 4em;
+   padding: 2em;
+   margin-bottom: 5em;
   }
 }
