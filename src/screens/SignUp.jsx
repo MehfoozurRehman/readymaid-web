@@ -28,7 +28,7 @@ export default function SignUp() {
             </div>
             <div className="signup__jumbotron__overlay__right">
               <div className="signup_all_second_container_content_two">
-                Welcome back!<span>Login</span>
+                Welcome back! <span> Login </span>
               </div>
               <div className="signup_all_second_container_input_three">
                 <input className="inputs" type="Email" placeholder="Email" />

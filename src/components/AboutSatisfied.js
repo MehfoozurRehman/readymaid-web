@@ -5,7 +5,7 @@ export function AboutSatisfied() {
   return (
     <div className="satisfied__coustomer__main__container">
       <div className="satisfied__coustomer__main__container__heading">
-        Our satisfied <span>coustomer </span>
+        Our satisfied <span> coustomer </span>
       </div>
       <div className="satisfied__coustomer__main__container__heading__img">
         <img src={satisfied} alt="" />

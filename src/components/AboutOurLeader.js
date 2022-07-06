@@ -9,7 +9,7 @@ export function AboutOurLeader() {
       </div>
       <div className="about__us__our__leader_container__heading">
         <div className="about__us__our__leader_container__heading__content__heading">
-          Our leaders
+          Our <span>Leader</span>
         </div>
         <div className="about__us__our__leader__container__heading__content__heading__para">
           Our leaders are purpose driven and are motivated to revolutionize our
@@ -18,9 +18,6 @@ export function AboutOurLeader() {
           utmost respect, care, and benefits. Where each customer will be
           treated with most care and dedication. We are creating one big family
           that will lead as an example for others to follow.
-        </div>
-        <div className="about__us__our__leader_container__heading__button">
-          <button>More</button>
         </div>
       </div>
     </div>

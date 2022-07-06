@@ -6,13 +6,10 @@ export function AboutBestServices() {
     <div className="Best__services__coustomer__container">
       <div className="Best__services__coustomer__container__main">
         <div className="Best__services__coustomer__container__heading">
-          We provide
+          We Provide
         </div>
         <div className="Best__services__coustomer__container__heading__two">
           <span>Best Quality Services</span>
-        </div>
-        <div className="Best__services__coustomer__container__heading__three">
-          join us
         </div>
         <div className="Best__services__coustomer__container__para">
           Readymaid is a one stop shop, a marketplace, a plateform to provide

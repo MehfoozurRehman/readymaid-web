@@ -899,6 +899,22 @@ a:hover {
   flex-wrap: wrap;
   margin: -1em;
 }
+.products__buisness__features__right :hover {
+  background-color: #3cb149;
+  color: white;
+}
+.products__buisness__features__right
+  :hover
+  .products__buisness__features__right__entry__header
+  svg {
+  color: #ffff;
+}
+.products__buisness__features__right
+  :hover
+  .products__buisness__features__right__entry__header {
+  color: #ffff;
+}
+
 .products__buisness__features__right__entry {
   width: 48%;
   margin: 1%;
@@ -2189,6 +2205,9 @@ a:hover {
   font-weight: 400;
   display: flex;
   justify-content: center;
+}
+.signup_all_second_container_content_two span {
+  margin-left: 0.2em;
 }
 .signup_all_second_container_content_two {
   font-size: 25px;

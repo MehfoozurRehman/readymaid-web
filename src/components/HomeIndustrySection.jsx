@@ -9,7 +9,7 @@ import { HomeIndustrySectionEntry } from "../components/HomeIndustrySectionEntry
 export function HomeIndustrySection() {
   return (
     <div className="home__industry">
-      <div className="home__industry__heading">Creating an industry</div>
+      <div className="home__industry__heading">Creating an Industry</div>
       <div className="home__industry__content">
         <HomeIndustrySectionEntry
           img={empoweringresources}

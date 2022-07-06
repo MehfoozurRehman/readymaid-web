@@ -24,6 +24,11 @@
   font-size: 25px;
   font-weight: 600;
   width: 50%;
+  margin-top: 10px;
+}
+.about__us__our__leader_container__heading__content__heading span{
+  margin-left: 1px;
+  border-bottom: 5px solid #FCCA25;
 }
 .about__us__our__leader_container__heading__button {
   margin-top: 3em;
@@ -96,6 +101,9 @@
 .about__us__our__foundation__container_heading {
   font-size: 30px;
   font-weight: 500;
+ border-bottom: 5px solid #FCCA25;
+ 
+ width: 20%;
 }
 .about__us__our__foundation__container img {
   width: 100%;
@@ -146,14 +154,16 @@
   padding: 6em;
 }
 .satisfied__coustomer__main__container__heading {
-  font-size: 35px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 500;
   display: flex;
   justify-content: center;
 }
 .satisfied__coustomer__main__container__heading span {
-  padding-left: 8px;
-  color: #3cb149;
+  margin-left: .2em;
+border-bottom: 5px solid #FCCA25;
+width: fit-content;
+
 }
 .satisfied__coustomer__main__container__heading__img {
   margin-top: 2em;
