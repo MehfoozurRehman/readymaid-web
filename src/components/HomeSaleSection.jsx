@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Fade } from "react-reveal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { salebanner } from "../assets";
 
@@ -22,76 +23,92 @@ export function HomeSaleSection() {
     <div className="home__sale">
       <Swiper slidesPerView={slidesPerView} spaceBetween={30}>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
         <SwiperSlide>
-          <button className="home__sale__entry">
-            <img
-              src={salebanner}
-              alt="salebanner"
-              className="home__sale__entry__img"
-            />
-          </button>
+          <Fade>
+            <button className="home__sale__entry">
+              <img
+                src={salebanner}
+                alt="salebanner"
+                className="home__sale__entry__img"
+              />
+            </button>
+          </Fade>
         </SwiperSlide>
       </Swiper>
     </div>

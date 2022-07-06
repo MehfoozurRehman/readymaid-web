@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade, Reveal } from "react-reveal";
 import { becomeresource, getresource, readymaidforbuisness } from "../assets";
 import { HomeCareSectionEntry } from "../components/HomeCareSectionEntry";
 
@@ -6,7 +7,7 @@ export function HomeCareSection() {
   return (
     <div className="home__care">
       <div className="home__care__header">
-        <div className="home__care__header__heading">We care about you</div>
+        <div className="home__care__header__heading">We Care About You</div>
         <div className="home__care__header__info">
           We are here to make your life easy <a href="#">Learn more.</a>
         </div>

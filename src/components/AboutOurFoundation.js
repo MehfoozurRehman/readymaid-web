@@ -6,6 +6,7 @@ export function AboutOurFoundation() {
   return (
     <div className="about__us__our__foundation__all__containers">
       <img src={foundations} alt="" />
+
       <div className="about__us__our__foundation__all__container">
         <div className="about__us__our__foundation__container">
           <div className="about__us__our__foundation__container__main">

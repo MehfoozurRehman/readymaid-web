@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import { simplifiedpayments } from "../assets";
 
 export function HomePaymentsSection() {
@@ -11,10 +12,13 @@ export function HomePaymentsSection() {
       />
       <div className="home__payments__overlay">
         <div className="home__payments__overlay__heading">
-          Simplified Payments
+          <Fade>Simplified Payments</Fade>
         </div>
         <div className="home__payments__overlay__info">
-          Easy & online payments for your resources. <a href="#">Learn More</a>
+          <Fade>
+            Easy & online payments for your resources.{" "}
+            <a href="#">Learn More</a>
+          </Fade>
         </div>
       </div>
     </div>

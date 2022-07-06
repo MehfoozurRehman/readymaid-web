@@ -1,11 +1,14 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import ourleaders from "../assets/ourleader.png";
 
 export function AboutOurLeader() {
   return (
     <div className="about__us__our__leader_container">
       <div className="about__us__our__leader_container__overlay">
-        <img src={ourleaders} alt="" />
+        <Zoom>
+          <img src={ourleaders} alt="" />
+        </Zoom>
       </div>
       <div className="about__us__our__leader_container__heading">
         <div className="about__us__our__leader_container__heading__content__heading">

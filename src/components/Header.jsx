@@ -51,6 +51,7 @@ export default function Header() {
             className="header__content__logo__img"
           />
         </Link>
+
         <div className="header__content__nav">
           {isHeaderOpen ? (
             <OutsideClickHandler

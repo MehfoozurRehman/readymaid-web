@@ -1,10 +1,13 @@
 import React from "react";
+import { Zoom } from "react-reveal";
 import { ourstory } from "../assets";
 
 export function AboutOurStory() {
   return (
     <div className="about__concepts">
-      <img src={ourstory} alt="ourstory" className="about__concepts__img" />
+      <Zoom>
+        <img src={ourstory} alt="ourstory" className="about__concepts__img" />
+      </Zoom>
       <div
         className="about__concepts__content"
         style={{
