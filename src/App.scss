@@ -435,15 +435,18 @@ a:hover {
   position: relative;
   margin-bottom: 2em;
 }
-.home__industry__heading::after {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  content: "";
-  width: 55%;
-  height: 3px;
-  background-color: #3cb149;
+.home__industry__heading span{
+  border-bottom: 3px solid #3CB149;
 }
+// .home__industry__heading::after {
+//   position: absolute;
+//   bottom: 0px;
+//   right: 0px;
+//   content: "";
+//   width: 55%;
+//   height: 3px;
+//   background-color: #3cb149;
+// }
 .home__industry__content {
   width: 100%;
   display: flex;
@@ -471,6 +474,10 @@ a:hover {
   color: black;
   font-weight: bold;
   margin-bottom: 0.5em;
+}
+.home__industry__content__entry__content__title span{
+  color: #3cb149;
+  border-bottom: 3px solid #FCCA25;
 }
 .home__industry__content__entry__content__info {
   display: flex;

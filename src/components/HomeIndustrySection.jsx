@@ -9,12 +9,18 @@ import { HomeIndustrySectionEntry } from "../components/HomeIndustrySectionEntry
 export function HomeIndustrySection() {
   return (
     <div className="home__industry">
-      <div className="home__industry__heading">Creating an Industry</div>
+      <div className="home__industry__heading">
+        Creating an <span>Industry</span>
+      </div>
       <div className="home__industry__content">
         <HomeIndustrySectionEntry
           img={empoweringresources}
           alt="empoweringresources"
-          title="Empowering Resources"
+          title={
+            <>
+            Empowering <span>Resources</span>
+            </>
+          }
           content={[
             "Better work rights",
             "Structured payments",
@@ -24,13 +30,21 @@ export function HomeIndustrySection() {
         <HomeIndustrySectionEntry
           img={givingbacktosociety}
           alt="givingbacktosociety"
-          title="Giving Back To The Society"
+          title={
+            <>
+              Giving Back <span>To The Society</span>
+            </>
+          }
           content={["Ease of processes", "Abundance of job opportunities"]}
         />
         <HomeIndustrySectionEntry
           img={happycustomer}
           alt="happycustomer"
-          title="Happy Customers"
+          title={
+            <>
+            Happy <span>Customers</span>
+            </>
+          }
           content={[
             "Trained Workforce",
             "Better Customer Rights",
