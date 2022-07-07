@@ -271,9 +271,15 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__content__bottom__links">
-          <a href="#" className="footer__content__bottom__links__link">
-            Products
-          </a>
+          <Link
+            to="/privacy"
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+            className="footer__content__bottom__links__link"
+          >
+            Privacy Policy
+          </Link>
           <a href="#" className="footer__content__bottom__links__link">
             Safety
           </a>
