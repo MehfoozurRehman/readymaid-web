@@ -115,6 +115,253 @@ a:hover {
   background-color: #3cb149;
   color: white;
 }
+.login__container {
+  position: relative;
+  height: 900px;
+}
+.login__container__img {
+  width: 100%;
+  height: 100%;
+}
+.login__container__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.login__container__overlay__content {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0em auto;
+  padding: 2em;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.login__container__overlay__left {
+  flex: 1;
+}
+.login__container__overlay__left__heading {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.login__container__overlay__left__heading div {
+  margin: 0.2em 0em;
+}
+.login__container__overlay__left__heading span {
+  font-weight: 500;
+}
+.login__container__overlay__left__heading span:first-child {
+  font-weight: bold;
+  color: #3cb149;
+}
+.login__container__overlay__left__info {
+  width: 100%;
+  max-width: 550px;
+}
+.login__container__overlay__right {
+  flex: 1;
+  max-width: 450px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3em 2em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__container__overlay__right__heading {
+  font-size: 25px;
+  margin-bottom: 1.5em;
+}
+.login__container__overlay__right__heading span {
+  font-weight: bold;
+}
+.auth__input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  height: 45px;
+  margin-bottom: 1em;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+.auth__input__icon {
+  width: 50px;
+  margin-right: -0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth__input__field {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.auth__input:hover {
+  transition: 300ms ease-in-out;
+  border-color: #fcca25;
+}
+.auth__input:focus-within {
+  transition: 300ms ease-in-out;
+  border-color: #fcca25;
+}
+.login__container__overlay__right__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0em 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.checkbox__content__label {
+  font-weight: normal !important;
+}
+.checkbox__content__label a {
+  color: #3cb149;
+}
+.login__container__overlay__right__row__link {
+  color: #292828;
+}
+
+.login__container__overlay__right__row__link:hover {
+  transition: 300ms ease-in-out;
+  color: #3cb149;
+}
+.login__container__overlay__right__wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.login__container__overlay__right__wrapper .auth__input:first-child {
+  margin-right: 1em;
+}
+.login__container__overlay__right__button {
+  width: 100%;
+  color: white;
+  background-color: #fcca25;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  max-width: 250px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+.login__container__overlay__right__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb14a;
+}
+.login__container__overlay__right__button__reverse {
+  width: 100%;
+  color: white;
+  background-color: #242424;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  width: fit-content;
+  text-align: center;
+  padding: 0em 2em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  cursor: pointer;
+}
+.login__container__overlay__right__button__reverse:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb14a;
+}
+.login__container__overlay__right__socials {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 150px;
+  justify-content: space-between;
+}
+.login__container__overlay__right__socials__entry {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.login__container__subscription {
+  width: 100%;
+  max-width: 800px;
+  background-color: #3cb14ade;
+  margin: 0em auto;
+  margin-top: -5em;
+  position: relative;
+  padding: 3em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__container__subscription__heading {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.login__container__subscription__info {
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+.login__container__subscription__row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+}
+.login__container__subscription__row__form {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+  height: 40px;
+  background-color: white;
+  border-radius: 50px;
+  overflow: hidden;
+  flex: 1;
+}
+.login__container__subscription__row__form__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0em 1.5em;
+}
+.login__container__subscription__row__form__button {
+  background-color: #fcca25;
+  color: white;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  padding: 0em 2em;
+  cursor: pointer;
+}
+.login__container__subscription__row__form__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #242424;
+}
+.login__container__subscription__row__button {
+  background-color: #242424;
+  color: white;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  padding: 0em 2em;
+  cursor: pointer;
+}
+.login__container__subscription__row__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #fcca25;
+}
 .home__jumbotron {
   width: 100%;
   position: relative;
@@ -368,6 +615,7 @@ a:hover {
   position: relative;
   margin: 3.5em 0em;
   height: 400px;
+  overflow: hidden;
 }
 .home__payments__img {
   width: 100%;
@@ -1605,6 +1853,25 @@ a:hover {
   padding: 2em;
   margin: 0em auto;
 }
+@media (max-width: 1100px) {
+  .login__container {
+    height: 1200px;
+  }
+  .login__container__overlay__content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login__container__overlay__left {
+    flex: none;
+    width: 100%;
+    margin-bottom: 5em;
+  }
+  .login__container__overlay__right {
+    flex: none;
+    max-width: 100%;
+    width: 100%;
+  }
+}
 @media (max-width: 1000px) {
   .home__solutions__content__entry {
     width: 23%;
@@ -1664,6 +1931,13 @@ a:hover {
 }
 
 @media (max-width: 900px) {
+  .login__container__overlay__right__row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .login__container__overlay__right__row__link {
+    margin-top: 1em;
+  }
   .header__content__nav__buttons__button__menu {
     display: flex;
   }
@@ -1741,6 +2015,15 @@ a:hover {
   }
 }
 @media (max-width: 700px) {
+  .login__container__overlay__right__wrapper {
+    flex-direction: column;
+  }
+  .login__container__reverse {
+    height: 1400px;
+  }
+  .login__container__overlay__right__wrapper:first-child {
+    margin-right: 0em;
+  }
   .home__care__content__entry {
     width: 100%;
   }
@@ -2029,7 +2312,8 @@ a:hover {
   padding-bottom: 1em;
 }
 .end_input {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 40px;
   border-radius: 20px;
   border: none;
@@ -2037,13 +2321,14 @@ a:hover {
   outline: none;
 }
 .end_button {
-  width: 100px;
   height: 40px;
   border-radius: 20px;
+  padding: 0em 2em;
   border: none;
   background-color: #fcca25;
   color: white;
   cursor: pointer;
+  text-align: center;
 }
 .login__jumbotron__end__content__input {
   width: 100%;
@@ -2191,7 +2476,7 @@ a:hover {
   justify-content: space-evenly;
 }
 .signup__jumbotron__overlay__left {
-  width: 50%;
+  flex: 1;
 }
 .signup_all_first_container_content_one {
   font-size: 25px;
@@ -2216,7 +2501,8 @@ a:hover {
   align-items: center;
 }
 .signup__jumbotron__overlay__right {
-  width: 37%;
+  flex: 1;
+  max-width: 400px;
   box-shadow: 0px 1px 1px 1px transparent;
   background-color: rgba(255, 255, 255, 0.452);
   align-items: center;
@@ -2388,9 +2674,6 @@ a:hover {
   .signup__jumbotron__end__content__heading {
     margin-top: 0;
   }
-  .signup__jumbotron__buttons {
-    height: 400px;
-  }
 }
 @media (max-width: 1425px) {
   .signup__jumbotron__overlay__right {
@@ -2472,7 +2755,20 @@ a:hover {
   .readymaid_app_card_right_card {
     padding: 2.3em;
   }
+  .login__container__subscription__row {
+    flex-direction: column;
+  }
+  .login__container__subscription__row__form {
+    min-height: 40px;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  .login__container__subscription__row__form__button,
+  .login__container__subscription__row__form__input {
+    height: 40px;
+  }
 }
+
 @media (max-width: 370px) {
   .Readymaid__Smart__Solution_overlay__heading {
     font-size: 19px;

@@ -13,7 +13,9 @@ import Products from "./screens/Products";
 import SignUp from "./screens/SignUp";
 import Login from "./screens/Login";
 import PrivacyPolicy from "./screens/PrivacyPolicy";
+import { useState } from "react";
 export default function App() {
+  const [isFooter, setIsFooter] = useState(true);
   return (
     <>
       <Header />
@@ -22,11 +24,11 @@ export default function App() {
         <Route path="/benefits" element={<Benifits />} />
         <Route path="/products" element={<Products />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp setIsFooter={setIsFooter} />} />
+        <Route path="/login" element={<Login setIsFooter={setIsFooter} />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
-      <Footer />
+      {isFooter ? <Footer /> : null}
     </>
   );
 }

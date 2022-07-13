@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer__content__top">
           <form className="footer__content__top__left">
             <div className="footer__content__top__left__heading">
-              Lets Connect Togather
+              Lets Connect
             </div>
             <FooterInput
               icon={
