@@ -109,6 +109,7 @@ export default function Header() {
             <button
               onClick={() => {
                 navigate("/login");
+                window.scrollTo({ top: 0, behavior: "smooth" });
               }}
               className="header__content__nav__buttons__button header__content__nav__buttons__button__primary"
             >
@@ -117,6 +118,7 @@ export default function Header() {
             <button
               onClick={() => {
                 navigate("/signup");
+                window.scrollTo({ top: 0, behavior: "smooth" });
               }}
               className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
             >
