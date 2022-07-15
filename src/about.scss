@@ -26,9 +26,9 @@
   width: 50%;
   margin-top: 10px;
 }
-.about__us__our__leader_container__heading__content__heading span{
+.about__us__our__leader_container__heading__content__heading span {
   margin-left: 1px;
-  border-bottom: 5px solid #FCCA25;
+  border-bottom: 5px solid #fcca25;
 }
 .about__us__our__leader_container__heading__button {
   margin-top: 3em;
@@ -49,6 +49,7 @@
   .about__us__our__leader_container {
     flex-direction: column;
     width: 100%;
+    padding: 5em 3em;
   }
   .about__us__our__leader_container__overlay {
     width: 100%;
@@ -69,14 +70,15 @@
     margin-top: 4em;
   }
 }
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .about__us__our__leader_container__overlay img {
     width: 100%;
   }
-  .about__us__our__leader__container__heading__content__heading__para{
-    width: 400px;
+  .about__us__our__leader__container__heading__content__heading__para {
+    width: 100%;
+    max-width: 400px;
   }
-  .about__us__our__leader_container__heading__button{
+  .about__us__our__leader_container__heading__button {
     display: flex;
     justify-content: center;
   }
@@ -101,9 +103,9 @@
 .about__us__our__foundation__container_heading {
   font-size: 30px;
   font-weight: 500;
- border-bottom: 5px solid #FCCA25;
- 
- width: 20%;
+  border-bottom: 5px solid #fcca25;
+
+  width: 20%;
 }
 .about__us__our__foundation__container img {
   width: 100%;
@@ -151,7 +153,7 @@
   margin: 0 auto;
 }
 .satisfied__coustomer__main__container {
-  padding: 6em;
+  padding: 6em 3em;
 }
 .satisfied__coustomer__main__container__heading {
   font-size: 30px;
@@ -160,10 +162,9 @@
   justify-content: center;
 }
 .satisfied__coustomer__main__container__heading span {
-  margin-left: .2em;
-border-bottom: 5px solid #FCCA25;
-width: fit-content;
-
+  margin-left: 0.2em;
+  border-bottom: 5px solid #fcca25;
+  width: fit-content;
 }
 .satisfied__coustomer__main__container__heading__img {
   margin-top: 2em;
@@ -257,8 +258,8 @@ width: fit-content;
     width: 70%;
     padding: 3em;
   }
-  .about__us__our__foundation__container__content{
-   width: 60%;
+  .about__us__our__foundation__container__content {
+    width: 60%;
   }
 }
 @media (max-width: 1176px) {
@@ -278,42 +279,49 @@ width: fit-content;
   .about__us__our__foundation__container__content {
     width: 100%;
   }
-  .about__us__our__foundation__container__main{
+  .about__us__our__foundation__container__main {
     width: 100%;
   }
-  .about__us__our__foundation__container__para{
+  .about__us__our__foundation__container__para {
     margin: 0;
     width: 90%;
     margin-top: 1em;
     font-size: 15px;
-
+  }
+  .about__us__our__foundation__all__containers > img {
+    height: 1100px;
+  }
+  .satisfied__coustomer__main__container__heading {
+    flex-direction: column;
+  }
+  .Best__services__coustomer__container__img {
+    width: 100%;
   }
 }
 @media (max-width: 920px) {
   .about__us__our__foundation__container__main {
     flex-direction: column;
   }
-  .about__us__our__foundation__container__content{
+  .about__us__our__foundation__container__content {
     height: 50%;
     width: 50%;
     margin-left: 10em;
-   
   }
-  .about__us__our__foundation__container__content img{
+  .about__us__our__foundation__container__content img {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    border-top-right-radius:20px ;
+    border-top-right-radius: 20px;
   }
-  .about__us__our__foundation__container__main{
+  .about__us__our__foundation__container__main {
     padding: 0;
     padding-left: 4em;
     padding-bottom: 4em;
   }
-  .about__us__our__foundation__container__main__two{
-   margin-left: .1em;
-   margin-right: 4em;
-   padding: 2em;
-   margin-bottom: 5em;
+  .about__us__our__foundation__container__main__two {
+    margin-left: 0.1em;
+    margin-right: 4em;
+    padding: 2em;
+    margin-bottom: 5em;
   }
 }
